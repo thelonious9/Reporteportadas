@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Monitor de Medios</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.1.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f4f6f8;
+            --card-bg: #ffffff;
+            --text-main: #333;
+            --text-muted: #666;
+            --primary: #2c3e50;
+            --positive: #27ae60;
+            --negative: #c0392b;
+            --informative: #f1c40f;
+            --border: #ddd;
+        }
+
+        body {
+            font-family: 'Montserrat', 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        #debug-console {
+            background: #333;
+            color: #0f0;
+            padding: 10px;
+            font-family: monospace;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: pre-wrap;
+            display: none;
+        }
+
+        header {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+
+        /* Grid de Filtros con Etiquetas */
+        .filters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 10px 15px;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-item label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 3px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            box-sizing: border-box;
+            background: white;
+        }
+
+        select:disabled {
+            background: #f0f0f0;
+            color: #999;
+            cursor: not-allowed;
+        }
+
+        /* KPIs */
+        .kpi-section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .kpi-grid-static {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .kpi-grid-dynamic {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        /* Nueva sección para KPIs de detalle */
+        .kpi-grid-detail {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .kpi-card {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .kpi-gob {
+            border-left-color: #3498db;
+        }
+
+        .kpi-pres {
+            border-left-color: #8e44ad;
+        }
+
+        .kpi-ayun {
+            border-left-color: #e67e22;
+        }
+
+        .kpi-otros {
+            border-left-color: #95a5a6;
+        }
+
+        .kpi-value {
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1;
+        }
+
+        .kpi-sub {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 5px;
+        }
+
+        .kpi-card-mini {
+            background: var(--card-bg);
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            border-left: 3px solid #ccc;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .kpi-mini-value {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .kpi-mini-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: 600;
+        }
+
+        /* Gráficos */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .chart-box {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            height: 550px;
+            position: relative;
+        }
+
+        .chart-title {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        /* Noticias */
+        .news-section {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Flex para alinear título y botón */
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .news-grid {
+            display: none;
+            /* Oculto por defecto */
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+            max-height: 500px;
+            overflow-y: auto;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        .news-grid.active {
+            display: grid;
+        }
+
+        /* Visible cuando tiene la clase 'active' */
+
+        .news-card {
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            background: #fafafa;
+            font-size: 0.85rem;
+        }
+
+        .news-card.negativa {
+            border-left-color: var(--negative);
+        }
+
+        .news-card.positiva {
+            border-left-color: var(--positive);
+        }
+
+        .news-card.informativa {
+            border-left-color: var(--informative);
+        }
+
+        .btn-toggle {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 1000px) {
+            .kpi-grid-static {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .kpi-grid-dynamic {
+                grid-template-columns: 1fr;
+            }
+
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="debug-console">Iniciando...</div>
+
+    <header>
+        <div class="header-top">
+            <h1>Monitor de Medios</h1>
+            <div style="display:flex; gap:10px; align-items:center;">
+                <div class="filter-item">
+                    <label>Desde</label>
+                    <input type="date" id="f-fecha-inicio">
+                </div>
+                <div class="filter-item">
+                    <label>Hasta</label>
+                    <input type="date" id="f-fecha-fin">
+                </div>
+                <button class="btn-toggle" onclick="resetFilters()">Resetear</button>
+            </div>
+        </div>
+
+        <!-- Filtros con Etiquetas -->
+        <div class="filters-grid">
+            <div class="filter-item">
+                <label for="f-grupo">Grupo</label>
+                <select id="f-grupo">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="f-dependencia">Dependencia</label>
+                <select id="f-dependencia">
+                    <option value="">Todas</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="f-medio">Medio</label>
+                <select id="f-medio">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="f-tema">Tema</label>
+                <select id="f-tema">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="f-recurso">Recurso Editorial</label>
+                <select id="f-recurso">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="f-estatus">Estatus</label>
+                <select id="f-estatus">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="f-nivel">Nivel</label>
+                <select id="f-nivel">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="f-search">Buscar</label>
+                <input type="text" id="f-search" placeholder="Titular...">
+            </div>
+        </div>
+    </header>
+
+    <!-- KPIs ESTÁTICOS -->
+    <div class="kpi-section">
+        <div class="section-title">Distribución de la información en Primeras Planas</div>
+        <div class="kpi-grid-static">
+            <div class="kpi-card kpi-gob">
+                <div class="kpi-value" id="k-s-gob">0%</div>
+                <div class="kpi-sub">Gobierno del Estado (<span id="k-s-gob-n">0</span>)</div>
+            </div>
+            <div class="kpi-card kpi-pres">
+                <div class="kpi-value" id="k-s-pres">0%</div>
+                <div class="kpi-sub">Presidencia (<span id="k-s-pres-n">0</span>)</div>
+            </div>
+            <div class="kpi-card kpi-ayun">
+                <div class="kpi-value" id="k-s-ayun">0%</div>
+                <div class="kpi-sub">Ayuntamientos (<span id="k-s-ayun-n">0</span>)</div>
+            </div>
+            <div class="kpi-card kpi-otros">
+                <div class="kpi-value" id="k-s-otros">0%</div>
+                <div class="kpi-sub">Otros (<span id="k-s-otros-n">0</span>)</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- KPIs DINÁMICOS -->
+    <div class="kpi-section">
+        <div class="section-title">Principales indicadores en Primeras Planas</div>
+        <div class="kpi-grid-dynamic">
+            <div class="kpi-card kpi-dynamic">
+                <div class="kpi-value" id="k-d-aparicion">0%</div>
+                <div class="kpi-sub">Aparición en Primera Plana (de <span id="k-universo">0</span> totales)</div>
+            </div>
+            <div class="kpi-card kpi-dynamic">
+                <div class="kpi-value" id="k-d-recurso" style="font-size:1.5rem;">N/A</div>
+                <div class="kpi-sub">Recurso Principal (<span id="k-d-recurso-n">0</span>%)</div>
+            </div>
+            <div class="kpi-card kpi-dynamic">
+                <div class="kpi-value" id="k-d-status" style="font-size:1.5rem;">N/A</div>
+                <div class="kpi-sub">Sentimiento Principal (<span id="k-d-status-n">0</span>%)</div>
+            </div>
+        </div>
+
+        <!-- GRÁFICOS Y DETALLES REORGANIZADOS -->
+        <div style="display: grid; grid-template-columns: 48% 52%; gap: 20px; margin-bottom: 20px;">
+            <div class="chart-box">
+                <div class="chart-title" id="title-chart-1">Distribución por Recurso Editorial</div>
+                <canvas id="chartRecurso"></canvas>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div
+                    style="background: var(--card-bg); padding: 20px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid #eef0f2; flex: 1;">
+                    <div class="section-title"
+                        style="border-bottom: 2px solid #f4f6f8; padding-bottom: 10px; margin-bottom: 15px; color: #555; letter-spacing: 0.5px; font-size: 0.8rem;">
+                        DISTRIBUCIÓN POR RECURSO EDITORIAL</div>
+                    <div class="kpi-grid-detail" id="k-detail-recurso"
+                        style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <!-- Se llenará dinámicamente -->
+                    </div>
+                </div>
+                <div
+                    style="background: var(--card-bg); padding: 20px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border: 1px solid #eef0f2; flex: 1;">
+                    <div class="section-title"
+                        style="border-bottom: 2px solid #f4f6f8; padding-bottom: 10px; margin-bottom: 15px; color: #555; letter-spacing: 0.5px; font-size: 0.8rem;">
+                        SENTIMIENTO POR RECURSO EDITORIAL</div>
+                    <div class="kpi-grid-detail" id="k-detail-status"
+                        style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <!-- Se llenará dinámicamente -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-box">
+                <div class="chart-title" id="title-chart-3" style="font-size: 1.2rem; margin-bottom: 20px;">Dependencia
+                    por Recurso Editorial</div>
+                <canvas id="chartDepRecurso"></canvas>
+            </div>
+            <div class="chart-box">
+                <div class="chart-title" id="title-chart-4" style="font-size: 1.2rem; margin-bottom: 20px;">Medios por
+                    Recurso Editorial</div>
+                <canvas id="chartMedioRecurso"></canvas>
+            </div>
+            <div class="chart-box">
+                <div class="chart-title" id="title-chart-2">Temas por Dependencia (Estatus)</div>
+                <canvas id="chartTemasDep"></canvas>
+            </div>
+            <div class="chart-box">
+                <div class="chart-title" id="title-chart-6">Tema por Recurso Editorial</div>
+                <canvas id="chartTemaRecurso"></canvas>
+            </div>
+            <div class="chart-box" style="grid-column: span 2;">
+                <div class="chart-title" id="title-chart-5">Track de Temas por Fecha</div>
+                <canvas id="chartTrackTemas"></canvas>
+            </div>
+        </div>
+
+        <!-- LISTA NOTICIAS -->
+        <div class="news-section">
+            <div class="news-header">
+                <h3 style="margin:0">Detalle de Notas</h3>
+                <button class="btn-toggle" id="btn-toggle-news" onclick="toggleNews()">Mostrar</button>
+            </div>
+            <div class="news-grid" id="newsList"></div>
+        </div>
+
+        <script>
+            // --- CONFIGURACIÓN ---
+            const COLORS_RECURSO = {
+                'Ocho columnas': '#691931', 'Foco gráfico': '#93703d', 'Cintillo': '#ffc051',
+                'Fotonota': '#ffedda', 'Llamado': '#ccbdae', 'Editorial': '#7f766c',
+                'Foco grǭfico': '#93703d', 'Publicidad': '#47000f'
+            };
+            const RECURSO_PRIORITY = [
+                'Ocho columnas', 'Foco gráfico', 'Fotonota', 'Llamado', 'Cintillo', 'Editorial', 'Publicidad'
+            ];
+
+            function sortResources(resources) {
+                return [...resources].sort((a, b) => {
+                    let indexA = RECURSO_PRIORITY.findIndex(r => a.toLowerCase().includes(r.toLowerCase().split(' ')[0]));
+                    let indexB = RECURSO_PRIORITY.findIndex(r => b.toLowerCase().includes(r.toLowerCase().split(' ')[0]));
+                    if (indexA === -1) indexA = 99;
+                    if (indexB === -1) indexB = 99;
+                    return indexA - indexB;
+                });
+            }
+            const COLORS_STATUS = {
+                'Negativa': '#e74c3c', 'Positiva': '#27ae60', 'Informativa': '#f1c40f'
+            };
+            const GRUPOS_MAP = {
+                'gob': 'gob', 'hidago': 'gob', 'estado': 'gob',
+                'pres': 'pres', 'repǧblica': 'pres', 'república': 'pres',
+                'ayun': 'ayun', 'alcald': 'ayun', 'municip': 'ayun',
+                'otros': 'otros'
+            };
+
+            function getGrupoKey(grupo) {
+                if (!grupo) return 'otros';
+                const g = grupo.toLowerCase();
+                if (g.includes('gobierno')) return 'gob';
+                if (g.includes('presidencia')) return 'pres';
+                if (g.includes('alcald') || g.includes('ayuntamiento') || g.includes('municip')) return 'ayun';
+                return 'otros';
+            }
+
+            function getRecursoColor(recurso) {
+                if (!recurso) return '#ccc';
+                const r = recurso.toLowerCase();
+                if (r.includes('ocho')) return COLORS_RECURSO['Ocho columnas'];
+                if (r.includes('foco')) return COLORS_RECURSO['Foco gráfico'];
+                if (r.includes('cintillo')) return COLORS_RECURSO['Cintillo'];
+                if (r.includes('fotonota')) return COLORS_RECURSO['Fotonota'];
+                if (r.includes('llamado')) return COLORS_RECURSO['Llamado'];
+                if (r.includes('editorial')) return COLORS_RECURSO['Editorial'];
+                if (r.includes('publicidad')) return COLORS_RECURSO['Publicidad'];
+                return '#ccc';
+            }
+
+            let allData = [];
+            let filteredData = [];
+            let charts = {};
+            const DEBUG = true;
+
+            function getContrastColor(hexcolor) {
+                if (!hexcolor || hexcolor === '#ccc') return '#333';
+                hexcolor = hexcolor.replace("#", "");
+                var r = parseInt(hexcolor.substr(0, 2), 16);
+                var g = parseInt(hexcolor.substr(2, 2), 16);
+                var b = parseInt(hexcolor.substr(4, 2), 16);
+                var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+                return (yiq >= 128) ? '#000000' : '#ffffff';
+            }
+
+            function log(msg) { if (DEBUG) { const el = document.getElementById('debug-console'); el.style.display = 'block'; el.innerText += "\n> " + msg; } }
+
+            // Helpers: envolver etiquetas en máximo 2 líneas y tamaño de fuente dinámico
+            function wrapLabelTwoLines(label) {
+                if (!label) return label;
+                const parts = label.toString().split(/\s+/);
+                if (parts.length <= 1) return label;
+                const mid = Math.ceil(parts.length / 2);
+                return parts.slice(0, mid).join(' ') + '\n' + parts.slice(mid).join(' ');
+            }
+
+            function dynamicFontSize(ctx, base = 12) {
+                try {
+                    const w = ctx && ctx.chart && ctx.chart.width ? ctx.chart.width : 300;
+                    return Math.max(9, Math.round(w / 60));
+                } catch (e) { return base; }
+            }
+
+            // --- CARGA DE DATOS ---
+            fetch('data_portadas.json')
+                .then(r => { if (!r.ok) throw new Error(`HTTP error ${r.status}`); return r.json(); })
+                .then(data => { allData = data; log(`Datos cargados: ${allData.length} registros.`); init(); })
+                .catch(err => { log(`ERROR CRÍTICO: ${err}`); document.body.innerHTML = "<h1 style='color:red;text-align:center;'>Error: No se encontró data_portadas.json</h1>"; });
+
+            function init() {
+                try {
+                    setupListeners();
+                    applyFilters();
+                    log("Dashboard inicializado.");
+                } catch (e) { log("Error init: " + e); }
+            }
+
+            // --- FILTROS DINÁMICOS ---
+            function setupListeners() {
+                document.querySelectorAll('select, input').forEach(el => {
+                    el.addEventListener('change', applyFilters);
+                    el.addEventListener('keyup', applyFilters);
+                });
+            }
+
+            function updateDynamicFilters(currentData, activeFilters) {
+                const filterIds = ['f-grupo', 'f-dependencia', 'f-medio', 'f-tema', 'f-recurso', 'f-estatus', 'f-nivel'];
+                const dataKeys = ['Grupo', 'Dependencia', 'Medio', 'Tema', 'Recurso editorial', 'Estatus', 'Nivel'];
+
+                filterIds.forEach((selectId, index) => {
+                    const select = document.getElementById(selectId);
+                    const key = dataKeys[index];
+                    const currentVal = select.value;
+
+                    if (currentVal !== "") return;
+
+                    let tempData = currentData.filter(d => {
+                        for (let i = 0; i < filterIds.length; i++) {
+                            if (i === index) continue;
+                            const fVal = document.getElementById(filterIds[i]).value;
+                            const dKey = dataKeys[i];
+                            if (fVal !== "" && d[dKey] !== fVal) return false;
+                        }
+                        return true;
+                    });
+
+                    const possibleVals = [...new Set(tempData.map(d => d[key]).filter(Boolean))].sort();
+                    select.innerHTML = `<option value="">Todos</option>`;
+                    possibleVals.forEach(v => {
+                        const opt = document.createElement('option');
+                        opt.value = v; opt.text = v;
+                        select.appendChild(opt);
+                    });
+                });
+            }
+
+            function applyFilters() {
+                const fInicio = document.getElementById('f-fecha-inicio').value;
+                const fFin = document.getElementById('f-fecha-fin').value;
+
+                let dataByDate = allData.filter(d => {
+                    if (!d.Fecha || d.Fecha === 'Sin fecha') return false;
+                    const fecha = d.Fecha;
+                    return (!fInicio || fecha >= fInicio) && (!fFin || fecha <= fFin);
+                });
+
+                const fMedio = document.getElementById('f-medio').value;
+                const fGrupo = document.getElementById('f-grupo').value;
+                const fDep = document.getElementById('f-dependencia').value;
+                const fTema = document.getElementById('f-tema').value;
+                const fStatus = document.getElementById('f-estatus').value;
+                const fRecurso = document.getElementById('f-recurso').value;
+                const fNivel = document.getElementById('f-nivel').value;
+                const fSearch = document.getElementById('f-search').value.toLowerCase();
+
+                filteredData = dataByDate.filter(d => {
+                    return (fMedio === '' || (d.Medio || '') === fMedio) &&
+                        (fGrupo === '' || (d.Grupo || '') === fGrupo) &&
+                        (fDep === '' || (d.Dependencia || '') === fDep) &&
+                        (fTema === '' || (d.Tema || '') === fTema) &&
+                        (fStatus === '' || (d.Estatus || '') === fStatus) &&
+                        (fRecurso === '' || (d['Recurso editorial'] || '') === fRecurso) &&
+                        (fNivel === '' || (d.Nivel || '') === fNivel) &&
+                        (fSearch === '' || (d.Titular || '').toLowerCase().includes(fSearch));
+                });
+
+                log(`Filtrado: ${dataByDate.length} por fecha -> ${filteredData.length} por criterios.`);
+                updateDynamicFilters(dataByDate);
+                updateUI(dataByDate, filteredData);
+            }
+
+            function resetFilters() {
+                document.querySelectorAll('select, input').forEach(el => { el.value = ""; el.disabled = false; });
+                applyFilters();
+            }
+
+            // --- UI UPDATES ---
+            function updateUI(staticData, dynamicData) {
+                updateKPIsStatic(staticData);
+                updateKPIsDynamic(dynamicData, staticData);
+                updateCharts(dynamicData);
+
+                // Actualizar noticias siempre, respetando si el div está abierto
+                const newsDiv = document.getElementById('newsList');
+                const isVisible = newsDiv.classList.contains('active');
+                updateNews(dynamicData, isVisible);
+            }
+
+            function updateKPIsStatic(data) {
+                const total = data.length || 1;
+                const counts = { gob: 0, pres: 0, ayun: 0, otros: 0 };
+                data.forEach(d => {
+                    let key = getGrupoKey(d.Grupo);
+                    counts[key]++;
+                });
+                for (const key in counts) {
+                    const p = ((counts[key] / total) * 100).toFixed(1);
+                    document.getElementById(`k-s-${key}`).innerText = `${p}%`;
+                    document.getElementById(`k-s-${key}-n`).innerText = counts[key];
+                }
+            }
+
+            function updateKPIsDynamic(data, staticData) {
+                const totalSelection = data.length;
+                const totalUniverse = staticData.length;
+
+                const pAparicion = totalUniverse > 0 ? ((totalSelection / totalUniverse) * 100).toFixed(1) : 0;
+                document.getElementById('k-d-aparicion').innerText = `${pAparicion}%`;
+                document.getElementById('k-universo').innerText = totalUniverse;
+
+                const recC = countKey(data, 'Recurso editorial');
+                const topRec = getTop(recC);
+                const recPct = totalSelection > 0 ? ((topRec.count / totalSelection) * 100).toFixed(1) : 0;
+                document.getElementById('k-d-recurso').innerText = topRec.name || 'N/A';
+                document.getElementById('k-d-recurso-n').innerText = recPct;
+
+                const statC = countKey(data, 'Estatus');
+                const topStat = getTop(statC);
+                const statPct = totalSelection > 0 ? ((topStat.count / totalSelection) * 100).toFixed(1) : 0;
+                const el = document.getElementById('k-d-status');
+                el.innerText = topStat.name || 'N/A';
+                el.style.color = COLORS_STATUS[topStat.name] || '#333';
+                document.getElementById('k-d-status-n').innerText = statPct;
+
+                // Renderizar mini-KPIs de detalle
+                renderDetailKPIs('k-detail-recurso', recC, totalSelection, COLORS_RECURSO);
+                renderDetailKPIs('k-detail-status', statC, totalSelection, COLORS_STATUS);
+            }
+
+            function renderDetailKPIs(containerId, counts, total, colorMap) {
+                const container = document.getElementById(containerId);
+                container.innerHTML = '';
+
+                // Ordenar por cuenta descendente
+                const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+                sorted.forEach(([label, count]) => {
+                    const pct = total > 0 ? ((count / total) * 100).toFixed(1) : 0;
+                    const color = (containerId === 'k-detail-recurso') ? '#47000f' : (colorMap[label] || '#ccc');
+
+                    const card = document.createElement('div');
+                    card.className = 'kpi-card-mini';
+                    card.style.borderLeftColor = color;
+                    const pctHtml = (total > 0 && count > 1) ? ` <span style="font-size: 0.7rem; font-weight: normal;">(${pct}%)</span>` : '';
+                    card.innerHTML = `
+                    <div class="kpi-mini-value">${count}${pctHtml}</div>
+                    <div class="kpi-mini-label" title="${label}">${label}</div>
+                `;
+                    container.appendChild(card);
+                });
+            }
+
+            // --- GRÁFICOS ---
+            function updateCharts(data) {
+                createPie('chartRecurso', data, 'Recurso editorial', COLORS_RECURSO);
+                createStackedBarAdvanced('chartTemasDep', data, 'Dependencia', 'Tema', COLORS_STATUS);
+                createHorizontalBar('chartDepRecurso', data, 'Dependencia', 'Recurso editorial', COLORS_RECURSO);
+                createHorizontalBar('chartMedioRecurso', data, 'Medio', 'Recurso editorial', COLORS_RECURSO);
+                createHorizontalBar('chartTemaRecurso', data, 'Tema', 'Recurso editorial', COLORS_RECURSO);
+                createLineTrack('chartTrackTemas', data, 'Fecha', 'Tema');
+            }
+
+            function createPie(id, data, key, colors) {
+                const counts = countKey(data, key);
+                const labels = Object.keys(counts);
+                const values = Object.values(counts);
+                if (charts[id]) charts[id].destroy();
+                charts[id] = new Chart(document.getElementById(id), {
+                    type: 'pie',
+                    plugins: [ChartDataLabels],
+                    data: {
+                        labels: labels,
+                        datasets: [{ data: values, backgroundColor: labels.map(l => getRecursoColor(l)) }]
+                    },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        plugins: {
+                            datalabels: {
+                                color: (ctx) => {
+                                    const bg = ctx.dataset.backgroundColor[ctx.dataIndex];
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    const v = ctx.dataset.data[ctx.dataIndex] || 0;
+                                    const pct = sum > 0 ? (v / sum) : 0;
+                                    return pct < 0.07 ? '#000000' : getContrastColor(bg);
+                                },
+                                font: (ctx) => {
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    const v = ctx.dataset.data[ctx.dataIndex] || 0;
+                                    const pct = sum > 0 ? (v / sum) : 0;
+                                    const base = dynamicFontSize(ctx, 18);
+                                    const size = pct < 0.07 ? Math.max(13, Math.round(base * 0.9)) : Math.max(17, base);
+                                    return { family: 'Montserrat', weight: '700', size: size };
+                                },
+                                formatter: (v, ctx) => {
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    if (!v || v === 0) return '';
+                                    if (sum === 0) return '';
+                                    return (v * 100 / sum).toFixed(1) + '%';
+                                },
+                                display: (ctx) => ctx.dataset.data[ctx.dataIndex] > 0,
+                                padding: (ctx) => {
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    const v = ctx.dataset.data[ctx.dataIndex] || 0;
+                                    const pct = sum > 0 ? (v / sum) : 0;
+                                    return pct < 0.07 ? 6 : 0;
+                                },
+                                offset: (ctx) => {
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    const v = ctx.dataset.data[ctx.dataIndex] || 0;
+                                    const pct = sum > 0 ? (v / sum) : 0;
+                                    return pct < 0.07 ? 22 : 0;
+                                },
+                                anchor: (ctx) => {
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    const v = ctx.dataset.data[ctx.dataIndex] || 0;
+                                    const pct = sum > 0 ? (v / sum) : 0;
+                                    return pct < 0.07 ? 'end' : 'center';
+                                },
+                                align: (ctx) => {
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    const v = ctx.dataset.data[ctx.dataIndex] || 0;
+                                    const pct = sum > 0 ? (v / sum) : 0;
+                                    return pct < 0.07 ? 'end' : 'center';
+                                },
+                                backgroundColor: (ctx) => {
+                                    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                    const v = ctx.dataset.data[ctx.dataIndex] || 0;
+                                    const pct = sum > 0 ? (v / sum) : 0;
+                                    return pct < 0.07 ? 'transparent' : 'transparent';
+                                },
+                                clamp: false,
+                                allowOverlap: false,
+                                textAlign: 'center'
+                            },
+                            legend: { display: true, position: 'bottom', labels: { font: { family: 'Montserrat', weight: '600' } } }
+                        },
+                        layout: {
+                            padding: {
+                                top: 20,
+                                bottom: 20,
+                                left: 50,
+                                right: 50
+                            }
+                        }
+                    }
+                });
+            }
+
+            function createStackedBarAdvanced(id, data, labelField, datasetField, colorPalette) {
+                const labelCounts = countKey(data, labelField);
+                const labels = getTopKeys(labelCounts, 6);
+
+                const datasetVals = new Set();
+                data.forEach(d => { if (labels.includes(d[labelField])) datasetVals.add(d[datasetField]); });
+                const datasetNames = Array.from(datasetVals).slice(0, 10);
+
+                const datasets = datasetNames.map(dsName => {
+                    const dataPoints = labels.map(lbl => {
+                        return data.filter(d => d[labelField] === lbl && d[datasetField] === dsName).length;
+                    });
+
+                    const subset = data.filter(d => d[datasetField] === dsName);
+                    const sCounts = countKey(subset, 'Estatus');
+                    const topS = getTop(sCounts).name;
+                    const color = colorPalette[topS] || '#ccc';
+
+                    return {
+                        label: dsName,
+                        data: dataPoints,
+                        backgroundColor: color,
+                        borderColor: '#000',
+                        borderWidth: 1,
+                        stack: 'stack0'
+                    };
+                });
+
+                if (charts[id]) charts[id].destroy();
+                charts[id] = new Chart(document.getElementById(id), {
+                    type: 'bar',
+                    plugins: [ChartDataLabels],
+                    data: { labels: labels, datasets: datasets },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        scales: {
+                            x: { stacked: true, ticks: { maxRotation: 45, minRotation: 45, font: { weight: 'bold' } } },
+                            y: { stacked: true, beginAtZero: true, ticks: { font: { weight: 'bold' } } }
+                        },
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: ${ctx.raw}` } },
+                            datalabels: {
+                                display: (ctx) => ctx.dataset.data[ctx.dataIndex] > 0,
+                                color: (ctx) => getContrastColor(ctx.dataset.backgroundColor),
+                                font: (ctx) => ({ family: 'Montserrat', weight: 'bold', size: Math.max(10, dynamicFontSize(ctx, 11)) }),
+                                formatter: (value, context) => {
+                                    if (!value || value === 0) return '';
+                                    const label = wrapLabelTwoLines(context.dataset.label);
+                                    if (value === 1) return `${label}\n${value}`;
+                                    const total = context.chart.data.datasets.reduce((sum, ds) => {
+                                        return sum + (ds.data[context.dataIndex] || 0);
+                                    }, 0);
+                                    const pct = total > 0 ? Math.round((value / total) * 100) : 0;
+                                    return `${label}\n${value} (${pct}%)`;
+                                },
+                                anchor: 'center',
+                                align: 'center',
+                                textAlign: 'center',
+                                padding: 2,
+                                clip: false,
+                                allowOverlap: false
+                            }
+                        }
+                    }
+                });
+            }
+
+            function createHorizontalBar(id, data, labelField, datasetField, colorPalette) {
+                const labelCounts = countKey(data, labelField);
+                const labels = getTopKeys(labelCounts, 8);
+                const datasetVals = new Set();
+                data.forEach(d => { if (labels.includes(d[labelField])) datasetVals.add(d[datasetField]); });
+                let datasetNames = Array.from(datasetVals);
+
+                if (datasetField === 'Recurso editorial') {
+                    datasetNames = sortResources(datasetNames);
+                }
+
+                const datasets = datasetNames.map(dsName => {
+                    const dataPoints = labels.map(lbl => {
+                        return data.filter(d => d[labelField] === lbl && d[datasetField] === dsName).length;
+                    });
+                    return {
+                        label: dsName,
+                        data: dataPoints,
+                        backgroundColor: getRecursoColor(dsName),
+                        borderColor: '#000',
+                        borderWidth: 0.8,
+                        stack: 'stack0'
+                    };
+                });
+
+                if (charts[id]) charts[id].destroy();
+                charts[id] = new Chart(document.getElementById(id), {
+                    type: 'bar',
+                    plugins: [ChartDataLabels],
+                    data: { labels: labels, datasets: datasets },
+                    options: {
+                        indexAxis: 'y',
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            x: { stacked: true, beginAtZero: true },
+                            y: { stacked: true, ticks: { autoSkip: false, font: { weight: 'bold' } } }
+                        },
+                        plugins: {
+                            legend: { position: 'bottom', labels: { boxWidth: 12 } },
+                            tooltip: { mode: 'index', intersect: false },
+                            datalabels: {
+                                display: (ctx) => ctx.dataset.data[ctx.dataIndex] > 0,
+                                color: (ctx) => getContrastColor(ctx.dataset.backgroundColor),
+                                font: (ctx) => ({ family: 'Montserrat', weight: 'bold', size: Math.max(10, dynamicFontSize(ctx, 11)) }),
+                                formatter: (value, context) => {
+                                    if (!value || value === 0) return '';
+                                    const total = context.chart.data.datasets.reduce((sum, ds) => {
+                                        return sum + (ds.data[context.dataIndex] || 0);
+                                    }, 0);
+                                    if (value === 1) return `${value}`;
+                                    const pct = total > 0 ? Math.round((value / total) * 100) : 0;
+                                    const label = wrapLabelTwoLines(context.dataset.label);
+                                    return value > (total * 0.1) ? `${label}\n(${value})` : `${value}`;
+                                },
+                                anchor: 'center',
+                                align: 'center',
+                                clip: false,
+                                textAlign: 'center'
+                            }
+                        }
+                    }
+                });
+            }
+
+            function createLineTrack(id, data, xField, groupField) {
+                // Obtener todas las fechas únicas
+                const dates = [...new Set(data.map(d => d[xField]))].sort();
+                if (dates.length === 0) return;
+
+                // Obtener top temas para no saturar
+                const topicCounts = countKey(data, groupField);
+                const topTopics = getTopKeys(topicCounts, 5);
+
+                const datasets = topTopics.map((topic, index) => {
+                    const colors = ['#2c3e50', '#c0392b', '#27ae60', '#f1c40f', '#8e44ad'];
+                    const color = colors[index % colors.length];
+                    const dataPoints = dates.map(date => {
+                        return data.filter(d => d[xField] === date && d[groupField] === topic).length;
+                    });
+
+                    return {
+                        label: topic,
+                        data: dataPoints,
+                        borderColor: color,
+                        backgroundColor: color,
+                        tension: 0.3,
+                        fill: false,
+                        pointRadius: 5,
+                        pointHoverRadius: 8
+                    };
+                });
+
+                if (charts[id]) charts[id].destroy();
+                charts[id] = new Chart(document.getElementById(id), {
+                    type: 'line',
+                    plugins: [ChartDataLabels],
+                    data: { labels: dates, datasets: datasets },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        scales: {
+                            y: { beginAtZero: true, title: { display: true, text: 'Menciones', font: { family: 'Montserrat', weight: 'bold' } } },
+                            x: { title: { display: true, text: 'Fecha', font: { family: 'Montserrat', weight: 'bold' } } }
+                        },
+                        plugins: {
+                            legend: { position: 'bottom', labels: { font: { family: 'Montserrat' } } },
+                            datalabels: {
+                                anchor: 'end',
+                                align: 'top',
+                                backgroundColor: (ctx) => ctx.dataset.backgroundColor,
+                                borderRadius: 4,
+                                color: 'white',
+                                font: { family: 'Montserrat', weight: 'bold', size: 10 },
+                                formatter: (v) => v > 0 ? v : '',
+                                display: 'auto',
+                                offset: 4
+                            }
+                        }
+                    }
+                });
+            }
+
+            // --- UTILIDADES ---
+            function countKey(arr, key) { const c = {}; arr.forEach(d => { const k = d[key] || 'N/A'; c[k] = (c[k] || 0) + 1; }); return c; }
+            function getTop(c) { let maxK = '', maxV = 0; for (let k in c) { if (c[k] > maxV) { maxV = c[k]; maxK = k; } } return { name: maxK, count: maxV }; }
+            function getTopKeys(c, n) { return Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, n).map(e => e[0]); }
+
+            // --- NOTICIAS ---
+            function toggleNews() {
+                const newsDiv = document.getElementById('newsList');
+                const btn = document.getElementById('btn-toggle-news');
+                newsDiv.classList.toggle('active');
+
+                // Actualizar texto del botón y renderizar contenido si se activó
+                if (newsDiv.classList.contains('active')) {
+                    btn.innerText = "Ocultar";
+                    updateNews(filteredData, true);
+                } else {
+                    btn.innerText = "Mostrar";
+                }
+            }
+
+            function updateNews(data, isVisible) {
+                const div = document.getElementById('newsList');
+                // Solo renderizamos el HTML si está visible, para ahorrar recursos
+                if (!isVisible) return;
+
+                div.innerHTML = ''; // Limpiar
+                if (data.length === 0) {
+                    div.innerHTML = '<p style="padding:10px; text-align:center; color:#777;">No hay notas para mostrar.</p>';
+                    return;
+                }
+
+                data.slice(0, 100).forEach(d => {
+                    const s = (d.Estatus || '').toLowerCase();
+                    const card = document.createElement('div');
+                    card.className = `news-card ${s}`;
+                    card.innerHTML = `
+                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                        <b style="color:var(--primary)">${d.Medio || 'N/A'} <span style="font-weight:normal; color:#666; font-size:0.8rem;">(${d['Recurso editorial'] || ''})</span></b>
+                        <small style="color:#999">${d.Fecha || ''}</small>
+                    </div>
+                    <div style="margin-bottom:5px; line-height:1.3;">${d.Titular || 'Sin título'}</div>
+                    <div style="font-size:0.75rem; color:#666; border-top:1px dashed #ddd; padding-top:3px; margin-top:5px;">
+                        <span style="font-weight:bold">${d.Tema || 'N/A'}</span> | ${d.Grupo || 'N/A'} - <span style="font-style:italic;">${d.Dependencia || ''}</span>
+                    </div>
+                `;
+                    div.appendChild(card);
+                });
+            }
+        </script>
+</body>
+
+</html>
