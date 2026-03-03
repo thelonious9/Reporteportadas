@@ -512,9 +512,24 @@
 
         // --- CARGA DE DATOS ---
         fetch('data_portadas.json')
-            .then(r => { if (!r.ok) throw new Error(`HTTP error ${r.status}`); return r.json(); })
+            .then(r => { if (!r.ok) throw new Error(`El archivo data_portadas.json no se pudo cargar. Estado: ${r.status}`); return r.json(); })
             .then(data => { allData = data; log(`Datos cargados: ${allData.length} registros.`); init(); })
-            .catch(err => { log(`ERROR CRÍTICO: ${err}`); document.body.innerHTML = "<h1 style='color:red;text-align:center;'>Error: No se encontró data_portadas.json</h1>"; });
+            .catch(err => {
+                log(`ERROR CRÍTICO: ${err}`);
+                let html = `<div style='color:#721c24; background:#f8d7da; border:1px solid #f5c6cb; padding:20px; border-radius:8px; width:80%; margin:50px auto; font-family:sans-serif;'>
+                    <h2 style='margin-top:0;'>Error al cargar datos</h2>
+                    <p>No se pudo cargar <b>data_portadas.json</b></p>
+                    <p style='font-family:monospace; background:#eee; padding:10px;'>${err.message}</p>
+                    <hr>
+                    <p><b>Causas probables:</b></p>
+                    <ul>
+                        <li>El archivo <code>data_portadas.json</code> no existe o está vacío.</li>
+                        <li>Estás abriendo el archivo directamente (<code>file://</code>). Los navegadores bloquean esto por seguridad.</li>
+                    </ul>
+                    <p><b>Solución:</b> Usa una extensión como <i>Live Server</i> o ejecuta <code>python exportar_portadas.py</code> para regenerar el archivo.</p>
+                </div>`;
+                document.body.innerHTML = html;
+            });
 
         function init() {
             try {
