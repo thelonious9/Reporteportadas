@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "Fecha": "2026-02-27",
         "Medio": "El Sol de Hidalgo",
         "Titular": "Cabildos, donde más cometen violencia política a mujeres",
@@ -69,11 +70,29 @@
         "Fecha": "2026-02-27",
         "Medio": "El Sol de Hidalgo",
         "Titular": "Colectiva aclara términos básicos antes del 8M",
+=======
+        "Fecha": "2026-03-02",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Últimos días de rebaja en el pago del predial",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Predial",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "La colectiva Aquelarre respalda iconoclasia",
+>>>>>>> e05f1a16ce437de4bf7ec175bbca047eb7a8ebe3
         "Recurso editorial": "Llamado",
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Marcha 8M",
         "Estatus": "Informativa",
+<<<<<<< HEAD
         "Grupo": "Otros"
     },
     {
@@ -201,11 +220,57 @@
         "Fecha": "2026-02-27",
         "Medio": "Milenio Hidalgo",
         "Titular": "\"Somos de carne y hueso\", dicen ministros a indígenas",
+=======
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Hallan vestigios arqueológicos en tren a Querétaro",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "INAH",
+        "Tema": "Tren México Querétaro",
+        "Estatus": "Informativa",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Presidencia"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Hidalgo con 71.3% de informalidad laboral",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "STPSH",
+        "Organismo": "STPSH",
+        "Tema": "Informalidad laboral",
+        "Estatus": "Negativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Biden deportó más hidalguenses que Trump",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Deportaciones",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "AutoFest reúne a miles en Pachuca",
+>>>>>>> e05f1a16ce437de4bf7ec175bbca047eb7a8ebe3
         "Recurso editorial": "Foco gráfico",
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Temas varios",
         "Estatus": "Informativa",
+<<<<<<< HEAD
         "Grupo": "Otros"
     },
     {
@@ -224,10 +289,33 @@
         "Medio": "Milenio Hidalgo",
         "Titular": "París renueva su edificio más feo",
         "Recurso editorial": "Llamado",
+=======
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Mercado Libre alista su expansión en Polo del Bienestar",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Sedeco",
+        "Organismo": "Sedeco",
+        "Tema": "Polos del Bienestar",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Regresa el calor",
+        "Recurso editorial": "Foco gráfico",
+>>>>>>> e05f1a16ce437de4bf7ec175bbca047eb7a8ebe3
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Temas varios",
         "Estatus": "Informativa",
+<<<<<<< HEAD
         "Grupo": "Otros"
     },
     {
@@ -278,11 +366,33 @@
         "Fecha": "2026-02-27",
         "Medio": "Milenio Hidalgo",
         "Titular": "La última y nos vamos",
+=======
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Busca el PRD Hidalgo ir sin coalición",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "PRD",
+        "Organismo": "PRD",
+        "Tema": "Alianzas Electorales",
+        "Estatus": "Informativa",
+        "Grupo": "Partidos",
+        "Nivel": "Sin datos"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Héroe hidalguense con capa y sotana",
+>>>>>>> e05f1a16ce437de4bf7ec175bbca047eb7a8ebe3
         "Recurso editorial": "Llamado",
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Deportes",
         "Estatus": "Informativa",
+<<<<<<< HEAD
         "Grupo": "Otros"
     },
     {
@@ -619,11 +729,597 @@
         "Fecha": "2026-02-27",
         "Medio": "Pachuca Brilla",
         "Titular": "Aseguran a sujeto por presuntos tocamientos a menor en Pachuca",
+=======
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Inicia registro para Beca Rita Cetina",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Delegación",
+        "Organismo": "Delegación",
+        "Tema": "Beca Rita Cetina",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Cae la pobreza laboral en Hidalgo... y mejora ingreso por ingreso per cápita: Inegi",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "STPSH",
+        "Organismo": "STPSH",
+        "Tema": "Índice De Pobreza",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Aúlla en el Zócalo Shakira y 400 mil más mueven las caderas en CDMX",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Inevitable hacer comparaciones",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Los accidentes viales dejan 45 víctimas al día",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Con videovigilancia buscan prevenir desastres",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Semarnath",
+        "Organismo": "Semarnath",
+        "Tema": "Prevención de incendios",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Francis, Alemania y RU apuntan a Irán",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Nuevo Poder Judicial en un año",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Ellas los preferían neardentales",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Pachuca mejora ingresos y otorga un aumento de sueldo a policías",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Aumento salarial",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Denuncias por tortura, en 3 demarcaciones",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "PGJEH",
+        "Organismo": "PGJEH",
+        "Tema": "Tortura",
+        "Estatus": "Negativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "SUMAN MÁS DE 300 QUERELLAS POR DELITOS DEL FUERO FEDERAL",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "PGJEH",
+        "Organismo": "PGJEH",
+        "Tema": "Incidencia Delictiva",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "PERSONAS CON VIH SUFREN DESABASTO DE MEDICAMENTO",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Presidencia",
+        "Organismo": "IMSS",
+        "Tema": "Abasto De Medicamentos",
+        "Estatus": "Negativa",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Presidencia"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Hidalgo, quinto lugar en robo de gas LP: Igavim",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "PGJEH",
+        "Organismo": "PGJEH",
+        "Tema": "Huachicol",
+        "Estatus": "Negativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "SALOMÓN, REY BLANQUIAZUL",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Deportes",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "EXHORTAN A ACLARAR TARIFAS DE LOS TAXIS",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Congreso",
+        "Organismo": "Congreso",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Congreso"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "ARSENAL SUEÑA CON LA PREMIER",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Deportes",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Sheinbaum alcanza aprobación de 76.8% en febrero: encuesta",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Aprobación Sheinbaum",
+        "Estatus": "Positiva",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Presidencia"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "ASF encuentra anomalías en $750 millones ejercidos por 30 municipios",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Observaciones ASF",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Entre el miedo y la presencia militar, Jalisco intenta regresar a la normalidad",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Disturbios",
+        "Estatus": "Informativa",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Presidencia"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Respaldo a la presidenta se mantiene en febrero",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Aprobación Sheinbaum",
+        "Estatus": "Informativa",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Presidencia"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Está por cumplirse un año de la “supuesta” investigación de Ana Karen Parra, de la Comisión de Derechos Humanos de Hidalgo, sin avances. En contraste, cuando el Legislativo solicitó investigar por violencia política al presidente municipal de Epazoyucan, la respuesta fue inmediata”.",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Congreso",
+        "Organismo": "Congreso",
+        "Tema": "Exigen destitución de funcionario",
+        "Estatus": "Negativa",
+        "Grupo": "Otros",
+        "Nivel": "Congreso"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Síntesis",
+        "Titular": "Rinde frutos disciplina hacendaria con aumento salarial a policías de Pachuca",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "alcald",
+        "Tema": "Aumento salarial",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Síntesis",
+        "Titular": "Acercan asesoría jurídica y psicológica a mujeres del estado",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Segobh",
+        "Organismo": "IHM",
+        "Tema": "Ruta de la Transformación",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Síntesis",
+        "Titular": "Registra Mineral de la Reforma 138 incendios desde principios de año",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Control de incendios",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Zunoticia",
+        "Titular": "Rutas de la Transformación conectan con mujeres en territorio: IHM",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Segobh",
+        "Organismo": "IHM",
+        "Tema": "Ruta de la Transformación",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Zunoticia",
+        "Titular": "Impulsa Sipinna acciones para prevenir y erradicar la violencia hacia adolescentes",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Segobh",
+        "Organismo": "Sipinna",
+        "Tema": "Protección del menor",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Zunoticia",
+        "Titular": "\"Somos Huasteca\" logra convenio para ofrecer tortilla a 20 pesos el kilo",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Zunoticia",
+        "Titular": "Realizaron simulacro de código erio",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Zunoticia",
+        "Titular": "Alcalde brinda audiencias en domingo de Atención Ciudadana",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Atención a la ciudadanía",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Effetá",
+        "Titular": "Partido Verde descarta fuga de alcaldes a Morena",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "PVEM",
+        "Organismo": "Titular",
+        "Tema": "Adhesión política",
+        "Estatus": "Informativa",
+        "Grupo": "Partidos",
+        "Nivel": "Partidos"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Effetá",
+        "Titular": "Grupo Bimbo promueve amparo contra Huejutla",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Amparo",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Effetá",
+        "Titular": "Más de 3 mil 500 cebaderos respaldan a Menchaca",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Cebaderos",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Effetá",
+        "Titular": "SEIINAC documenta 75 muertes violentas de mujeres en Hidalgo",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "PGJEH",
+        "Organismo": "PGJEH",
+        "Tema": "Feminicidio",
+        "Estatus": "Negativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Effetá",
+        "Titular": "Policías de Pachuca reciben aumento del 15%",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Aumento salarial",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Effetá",
+        "Titular": "Medécigo anuncia inversión histórica en espacios públicos",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Rehabilitación de espacios públicos",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Effetá",
+        "Titular": "Sudáfrica en Pachuca: una oportunidad que trasciende el futbol",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Policías rescatan a joven en riesgo en puente de Pachuca",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Policía municipal",
+        "Tema": "Evitan suicidio",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Claudia Sandoval toma protesta de nuevos delegados",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Toma de protesta",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Jorge Reyes: disciplina financiera que se traduce en inversión y seguridad para la capital",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Aumento salarial",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Cebaderos del Altiplano hidalguense cierran filas con el gobierno de Julio Menchaca",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Cebaderos",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Hidalguenses representando a México conquistan plata en los Panamericanos de El Salvador",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "SEPH",
+        "Organismo": "Inhide",
+        "Tema": "Justa Deportiva",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Zitlaly Zúñiga encabezó las faenas del pueblo en Ajacuba",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Conmemora la Sección 15 del SNTE el 62 Aniversario de Educación Indígena",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Conmemoración Aniversario",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Marfeca",
+        "Titular": "Entre sirenas, lágrimas y aplausos despidieron al paramédico de Cruz Roja",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Jorge Reyes: Disciplina financiera que se traduce en inversión y seguridad para la capital",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Aumento salarial",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Financiamiento educativo, motor de desarrollo en Hidalgo",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "CGCG",
+        "Organismo": "CGCG",
+        "Tema": "Financiamiento educativo",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Durante marzo, 10% de descuento en el predial",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Predial",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Cuatro detenidos por fraude en juegos de azar en Pachuca",
+>>>>>>> e05f1a16ce437de4bf7ec175bbca047eb7a8ebe3
         "Recurso editorial": "Llamado",
         "Dependencia": "Ayuntamiento",
         "Organismo": "Policía municipal",
         "Tema": "Detención",
         "Estatus": "Informativa",
+<<<<<<< HEAD
         "Grupo": "Alcaldías"
     },
     {
@@ -691,5 +1387,81 @@
         "Tema": "Glorieta 24 Horas",
         "Estatus": "Positiva",
         "Grupo": "Gobierno del estado"
+=======
+        "Grupo": "Alcaldías",
+        "Nivel": "Ayuntamiento"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Rescata SSPH a hombre que estaba en puente de bulevar Colosio",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "SSPH",
+        "Organismo": "SSPH",
+        "Tema": "Evitan suicidio",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Plaza Juárez",
+        "Titular": "Exigen renuncia del delegado de la FGR en Hidalgo",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Presidencia",
+        "Organismo": "FGR",
+        "Tema": "Exigen destitución de docente",
+        "Estatus": "Informativa",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Presidencia"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Plaza Juárez",
+        "Titular": "Trump insta a Guardia Revolucionaria iraní a rendirse",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas internacionales",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Plaza Juárez",
+        "Titular": "Guerra de tiranos e intereses",
+        "Recurso editorial": "Editorial",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas internacionales",
+        "Estatus": "Negativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Plaza Juárez",
+        "Titular": "Van contra tarifas excesivas de los taxis",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Congreso",
+        "Organismo": "Congreso",
+        "Tema": "Abusos taxistas",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Congreso"
+    },
+    {
+        "Fecha": "2026-03-02",
+        "Medio": "Plaza Juárez",
+        "Titular": "Presentan el Sistema de Consult de la Eslecciones",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "Otros"
+>>>>>>> e05f1a16ce437de4bf7ec175bbca047eb7a8ebe3
     }
 ]

@@ -47,7 +47,11 @@ def exportar_json_dashboard():
         # 2. Limpieza
         df = df.dropna(subset=['Titular'])
         
+<<<<<<< HEAD
         campos_criticos = ['Grupo', 'Dependencia', 'Medio', 'Tema', 'Estatus', 'Recurso editorial']
+=======
+        campos_criticos = ['Grupo', 'Dependencia', 'Medio', 'Tema', 'Estatus', 'Recurso editorial', 'Nivel']
+>>>>>>> e05f1a16ce437de4bf7ec175bbca047eb7a8ebe3
         for col in campos_criticos:
             if col in df.columns:
                 # Convertir a string para evitar errores de tipo
