@@ -287,6 +287,133 @@
             cursor: pointer;
         }
 
+        /* Custom Multi-select Dropdown */
+        .multiselect-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .multiselect-toggle {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            background: white;
+            text-align: left;
+            cursor: pointer;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .multiselect-toggle::after {
+            content: '▼';
+            font-size: 0.6rem;
+            margin-left: 5px;
+            color: var(--text-muted);
+        }
+
+        .multiselect-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: white;
+            border: 1px solid var(--border);
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-height: 300px;
+            flex-direction: column;
+        }
+
+        .multiselect-content.active {
+            display: flex;
+        }
+
+        .multiselect-search {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .multiselect-search input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #eee;
+            border-radius: 3px;
+        }
+
+        .multiselect-options {
+            overflow-y: auto;
+            flex-grow: 1;
+            padding: 5px 0;
+        }
+
+        .multiselect-option {
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+
+        .multiselect-option:hover {
+            background-color: #f8f9fa;
+        }
+
+        .multiselect-option input {
+            width: auto;
+            margin: 0;
+        }
+
+        .multiselect-option label {
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: var(--text-main);
+            margin: 0;
+            text-transform: none;
+            font-weight: normal;
+        }
+
+        /* Grouped News Section */
+        .status-group {
+            margin-bottom: 25px;
+        }
+
+        .status-header {
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .status-header.negativa {
+            background-color: var(--negative);
+        }
+
+        .status-header.positiva {
+            background-color: var(--positive);
+        }
+
+        .status-header.informativa {
+            background-color: var(--informative);
+        }
+
+        .status-news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+        }
+
         @media (max-width: 1000px) {
             .kpi-grid-static {
                 grid-template-columns: repeat(2, 1fr);
@@ -327,45 +454,88 @@
         <div class="filters-grid">
             <div class="filter-item">
                 <label for="f-grupo">Grupo</label>
-                <select id="f-grupo">
-                    <option value="">Todos</option>
-                </select>
+                <div class="multiselect-container" id="container-f-grupo">
+                    <div class="multiselect-toggle" id="toggle-f-grupo">Todos</div>
+                    <div class="multiselect-content" id="content-f-grupo">
+                        <div class="multiselect-search">
+                            <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-grupo', this.value)">
+                        </div>
+                        <div class="multiselect-options" id="options-f-grupo"></div>
+                    </div>
+                </div>
             </div>
             <div class="filter-item">
                 <label for="f-dependencia">Dependencia</label>
-                <select id="f-dependencia">
-                    <option value="">Todas</option>
-                </select>
+                <div class="multiselect-container" id="container-f-dependencia">
+                    <div class="multiselect-toggle" id="toggle-f-dependencia">Todas</div>
+                    <div class="multiselect-content" id="content-f-dependencia">
+                        <div class="multiselect-search">
+                            <input type="text" placeholder="Buscar..."
+                                onkeyup="filterOptions('f-dependencia', this.value)">
+                        </div>
+                        <div class="multiselect-options" id="options-f-dependencia"></div>
+                    </div>
+                </div>
             </div>
             <div class="filter-item">
                 <label for="f-medio">Medio</label>
-                <select id="f-medio">
-                    <option value="">Todos</option>
-                </select>
+                <div class="multiselect-container" id="container-f-medio">
+                    <div class="multiselect-toggle" id="toggle-f-medio">Todos</div>
+                    <div class="multiselect-content" id="content-f-medio">
+                        <div class="multiselect-search">
+                            <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-medio', this.value)">
+                        </div>
+                        <div class="multiselect-options" id="options-f-medio"></div>
+                    </div>
+                </div>
             </div>
             <div class="filter-item">
                 <label for="f-tema">Tema</label>
-                <select id="f-tema">
-                    <option value="">Todos</option>
-                </select>
+                <div class="multiselect-container" id="container-f-tema">
+                    <div class="multiselect-toggle" id="toggle-f-tema">Todos</div>
+                    <div class="multiselect-content" id="content-f-tema">
+                        <div class="multiselect-search">
+                            <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-tema', this.value)">
+                        </div>
+                        <div class="multiselect-options" id="options-f-tema"></div>
+                    </div>
+                </div>
             </div>
             <div class="filter-item">
                 <label for="f-recurso">Recurso Editorial</label>
-                <select id="f-recurso">
-                    <option value="">Todos</option>
-                </select>
+                <div class="multiselect-container" id="container-f-recurso">
+                    <div class="multiselect-toggle" id="toggle-f-recurso">Todos</div>
+                    <div class="multiselect-content" id="content-f-recurso">
+                        <div class="multiselect-search">
+                            <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-recurso', this.value)">
+                        </div>
+                        <div class="multiselect-options" id="options-f-recurso"></div>
+                    </div>
+                </div>
             </div>
             <div class="filter-item">
                 <label for="f-estatus">Estatus</label>
-                <select id="f-estatus">
-                    <option value="">Todos</option>
-                </select>
+                <div class="multiselect-container" id="container-f-estatus">
+                    <div class="multiselect-toggle" id="toggle-f-estatus">Todos</div>
+                    <div class="multiselect-content" id="content-f-estatus">
+                        <div class="multiselect-search">
+                            <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-estatus', this.value)">
+                        </div>
+                        <div class="multiselect-options" id="options-f-estatus"></div>
+                    </div>
+                </div>
             </div>
             <div class="filter-item">
                 <label for="f-nivel">Nivel</label>
-                <select id="f-nivel">
-                    <option value="">Todos</option>
-                </select>
+                <div class="multiselect-container" id="container-f-nivel">
+                    <div class="multiselect-toggle" id="toggle-f-nivel">Todos</div>
+                    <div class="multiselect-content" id="content-f-nivel">
+                        <div class="multiselect-search">
+                            <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-nivel', this.value)">
+                        </div>
+                        <div class="multiselect-options" id="options-f-nivel"></div>
+                    </div>
+                </div>
             </div>
             <div class="filter-item">
                 <label for="f-search">Buscar</label>
@@ -535,6 +705,15 @@
             let filteredData = [];
             let charts = {};
             const DEBUG = true;
+            const activeSelections = {
+                'f-grupo': [],
+                'f-dependencia': [],
+                'f-medio': [],
+                'f-tema': [],
+                'f-recurso': [],
+                'f-estatus': [],
+                'f-nivel': []
+            };
 
             function getContrastColor(hexcolor) {
                 if (!hexcolor || hexcolor === '#ccc') return '#333';
@@ -595,40 +774,115 @@
 
             // --- FILTROS DINÁMICOS ---
             function setupListeners() {
-                document.querySelectorAll('select, input').forEach(el => {
+                // Fecha y buscador
+                document.querySelectorAll('#f-fecha-inicio, #f-fecha-fin, #f-search').forEach(el => {
                     el.addEventListener('change', applyFilters);
                     el.addEventListener('keyup', applyFilters);
                 });
+
+                // Toggles de multiselect
+                document.querySelectorAll('.multiselect-toggle').forEach(toggle => {
+                    toggle.addEventListener('click', (e) => {
+                        const content = toggle.nextElementSibling;
+                        const isActive = content.classList.contains('active');
+
+                        // Cerrar todos
+                        document.querySelectorAll('.multiselect-content').forEach(c => c.classList.remove('active'));
+
+                        if (!isActive) {
+                            content.classList.add('active');
+                        }
+                        e.stopPropagation();
+                    });
+                });
+
+                // Cerrar al hacer click fuera
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.multiselect-container')) {
+                        document.querySelectorAll('.multiselect-content').forEach(c => c.classList.remove('active'));
+                    }
+                });
             }
 
-            function updateDynamicFilters(currentData, activeFilters) {
+            function filterOptions(filterId, query) {
+                const optionsDiv = document.getElementById(`options-${filterId}`);
+                const options = optionsDiv.querySelectorAll('.multiselect-option');
+                const q = query.toLowerCase();
+
+                options.forEach(opt => {
+                    const label = opt.querySelector('label').innerText.toLowerCase();
+                    opt.style.display = label.includes(q) ? 'flex' : 'none';
+                });
+            }
+
+            function toggleOption(filterId, value, checked) {
+                if (checked) {
+                    if (!activeSelections[filterId].includes(value)) {
+                        activeSelections[filterId].push(value);
+                    }
+                } else {
+                    activeSelections[filterId] = activeSelections[filterId].filter(v => v !== value);
+                }
+
+                updateToggleText(filterId);
+                applyFilters();
+            }
+
+            function updateToggleText(filterId) {
+                const toggle = document.getElementById(`toggle-${filterId}`);
+                const selected = activeSelections[filterId];
+
+                if (selected.length === 0) {
+                    toggle.innerText = filterId === 'f-dependencia' ? 'Todas' : 'Todos';
+                } else if (selected.length === 1) {
+                    toggle.innerText = selected[0];
+                } else {
+                    toggle.innerText = `${selected.length} seleccionados`;
+                }
+            }
+
+            function updateDynamicFilters(currentData) {
                 const filterIds = ['f-grupo', 'f-dependencia', 'f-medio', 'f-tema', 'f-recurso', 'f-estatus', 'f-nivel'];
                 const dataKeys = ['Grupo', 'Dependencia', 'Medio', 'Tema', 'Recurso editorial', 'Estatus', 'Nivel'];
 
-                filterIds.forEach((selectId, index) => {
-                    const select = document.getElementById(selectId);
+                filterIds.forEach((filterId, index) => {
+                    const optionsDiv = document.getElementById(`options-${filterId}`);
                     const key = dataKeys[index];
-                    const currentVal = select.value;
-
-                    if (currentVal !== "") return;
 
                     let tempData = currentData.filter(d => {
                         for (let i = 0; i < filterIds.length; i++) {
                             if (i === index) continue;
-                            const fVal = document.getElementById(filterIds[i]).value;
+                            const fSel = activeSelections[filterIds[i]];
                             const dKey = dataKeys[i];
-                            if (fVal !== "" && d[dKey] !== fVal) return false;
+                            if (fSel.length > 0 && !fSel.includes(d[dKey])) return false;
                         }
                         return true;
                     });
 
                     const possibleVals = [...new Set(tempData.map(d => d[key]).filter(Boolean))].sort();
-                    select.innerHTML = `<option value="">Todos</option>`;
+                    const scrollTop = optionsDiv.scrollTop;
+
+                    optionsDiv.innerHTML = '';
                     possibleVals.forEach(v => {
-                        const opt = document.createElement('option');
-                        opt.value = v; opt.text = v;
-                        select.appendChild(opt);
+                        const isChecked = activeSelections[filterId].includes(v);
+                        const opt = document.createElement('div');
+                        opt.className = 'multiselect-option';
+                        opt.innerHTML = `
+                            <input type="checkbox" id="opt-${filterId}-${v}" ${isChecked ? 'checked' : ''} 
+                                   onchange="toggleOption('${filterId}', '${v.replace(/'/g, "\\'")}', this.checked)">
+                            <label for="opt-${filterId}-${v}">${v}</label>
+                        `;
+                        opt.onclick = (e) => {
+                            if (e.target.tagName !== 'INPUT') {
+                                const cb = opt.querySelector('input');
+                                cb.checked = !cb.checked;
+                                toggleOption(filterId, v, cb.checked);
+                            }
+                        };
+                        optionsDiv.appendChild(opt);
                     });
+
+                    optionsDiv.scrollTop = scrollTop;
                 });
             }
 
@@ -642,24 +896,19 @@
                     return (!fInicio || fecha >= fInicio) && (!fFin || fecha <= fFin);
                 });
 
-                const fMedio = document.getElementById('f-medio').value;
-                const fGrupo = document.getElementById('f-grupo').value;
-                const fDep = document.getElementById('f-dependencia').value;
-                const fTema = document.getElementById('f-tema').value;
-                const fStatus = document.getElementById('f-estatus').value;
-                const fRecurso = document.getElementById('f-recurso').value;
-                const fNivel = document.getElementById('f-nivel').value;
                 const fSearch = document.getElementById('f-search').value.toLowerCase();
 
                 filteredData = dataByDate.filter(d => {
-                    return (fMedio === '' || (d.Medio || '') === fMedio) &&
-                        (fGrupo === '' || (d.Grupo || '') === fGrupo) &&
-                        (fDep === '' || (d.Dependencia || '') === fDep) &&
-                        (fTema === '' || (d.Tema || '') === fTema) &&
-                        (fStatus === '' || (d.Estatus || '') === fStatus) &&
-                        (fRecurso === '' || (d['Recurso editorial'] || '') === fRecurso) &&
-                        (fNivel === '' || (d.Nivel || '') === fNivel) &&
-                        (fSearch === '' || (d.Titular || '').toLowerCase().includes(fSearch));
+                    const matchGrupo = activeSelections['f-grupo'].length === 0 || activeSelections['f-grupo'].includes(d.Grupo);
+                    const matchDep = activeSelections['f-dependencia'].length === 0 || activeSelections['f-dependencia'].includes(d.Dependencia);
+                    const matchMedio = activeSelections['f-medio'].length === 0 || activeSelections['f-medio'].includes(d.Medio);
+                    const matchTema = activeSelections['f-tema'].length === 0 || activeSelections['f-tema'].includes(d.Tema);
+                    const matchStatus = activeSelections['f-estatus'].length === 0 || activeSelections['f-estatus'].includes(d.Estatus);
+                    const matchRecurso = activeSelections['f-recurso'].length === 0 || activeSelections['f-recurso'].includes(d['Recurso editorial']);
+                    const matchNivel = activeSelections['f-nivel'].length === 0 || activeSelections['f-nivel'].includes(d.Nivel);
+                    const matchSearch = fSearch === '' || (d.Titular || '').toLowerCase().includes(fSearch);
+
+                    return matchGrupo && matchDep && matchMedio && matchTema && matchStatus && matchRecurso && matchNivel && matchSearch;
                 });
 
                 log(`Filtrado: ${dataByDate.length} por fecha -> ${filteredData.length} por criterios.`);
@@ -668,7 +917,17 @@
             }
 
             function resetFilters() {
-                document.querySelectorAll('select, input').forEach(el => { el.value = ""; el.disabled = false; });
+                document.getElementById('f-fecha-inicio').value = "";
+                document.getElementById('f-fecha-fin').value = "";
+                document.getElementById('f-search').value = "";
+
+                for (let key in activeSelections) {
+                    activeSelections[key] = [];
+                    updateToggleText(key);
+                    const searchInput = document.querySelector(`#content-${key} .multiselect-search input`);
+                    if (searchInput) searchInput.value = "";
+                }
+
                 applyFilters();
             }
 
@@ -1056,31 +1315,80 @@
 
             function updateNews(data, isVisible) {
                 const div = document.getElementById('newsList');
-                // Solo renderizamos el HTML si está visible, para ahorrar recursos
                 if (!isVisible) return;
 
-                div.innerHTML = ''; // Limpiar
+                div.innerHTML = '';
                 if (data.length === 0) {
                     div.innerHTML = '<p style="padding:10px; text-align:center; color:#777;">No hay notas para mostrar.</p>';
                     return;
                 }
 
-                data.slice(0, 100).forEach(d => {
-                    const s = (d.Estatus || '').toLowerCase();
-                    const card = document.createElement('div');
-                    card.className = `news-card ${s}`;
-                    card.innerHTML = `
-                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                        <b style="color:var(--primary)">${d.Medio || 'N/A'} <span style="font-weight:normal; color:#666; font-size:0.8rem;">(${d['Recurso editorial'] || ''})</span></b>
-                        <small style="color:#999">${d.Fecha || ''}</small>
-                    </div>
-                    <div style="margin-bottom:5px; line-height:1.3;">${d.Titular || 'Sin título'}</div>
-                    <div style="font-size:0.75rem; color:#666; border-top:1px dashed #ddd; padding-top:3px; margin-top:5px;">
-                        <span style="font-weight:bold">${d.Tema || 'N/A'}</span> | ${d.Grupo || 'N/A'} - <span style="font-style:italic;">${d.Dependencia || ''}</span>
-                    </div>
-                `;
-                    div.appendChild(card);
+                const statuses = ['Negativa', 'Positiva', 'Informativa'];
+
+                statuses.forEach(status => {
+                    const statusData = data.filter(d => (d.Estatus || '') === status);
+                    if (statusData.length === 0) return;
+
+                    const groupDiv = document.createElement('div');
+                    groupDiv.className = 'status-group';
+
+                    const header = document.createElement('div');
+                    header.className = `status-header ${status.toLowerCase()}`;
+                    header.innerText = `${status} (${statusData.length})`;
+                    groupDiv.appendChild(header);
+
+                    const grid = document.createElement('div');
+                    grid.className = 'status-news-grid';
+
+                    statusData.slice(0, 50).forEach(d => {
+                        const s = (d.Estatus || '').toLowerCase();
+                        const card = document.createElement('div');
+                        card.className = `news-card ${s}`;
+                        card.style.display = 'block'; // Ensure it's not grid-span unless intended
+                        card.innerHTML = `
+                            <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                                <b style="color:var(--primary)">${d.Medio || 'N/A'} <span style="font-weight:normal; color:#666; font-size:0.8rem;">(${d['Recurso editorial'] || ''})</span></b>
+                                <small style="color:#999">${d.Fecha || ''}</small>
+                            </div>
+                            <div style="margin-bottom:5px; line-height:1.3;">${d.Titular || 'Sin título'}</div>
+                            <div style="font-size:0.75rem; color:#666; border-top:1px dashed #ddd; padding-top:3px; margin-top:5px;">
+                                <span style="font-weight:bold">${d.Tema || 'N/A'}</span> | ${d.Grupo || 'N/A'} - <span style="font-style:italic;">${d.Dependencia || ''}</span>
+                            </div>
+                        `;
+                        grid.appendChild(card);
+                    });
+
+                    groupDiv.appendChild(grid);
+                    div.appendChild(groupDiv);
                 });
+
+                // Otras (si las hay)
+                const others = data.filter(d => !statuses.includes(d.Estatus));
+                if (others.length > 0) {
+                    const groupDiv = document.createElement('div');
+                    groupDiv.className = 'status-group';
+                    const header = document.createElement('div');
+                    header.className = 'status-header';
+                    header.style.backgroundColor = '#95a5a6';
+                    header.innerText = `Otras (${others.length})`;
+                    groupDiv.appendChild(header);
+                    const grid = document.createElement('div');
+                    grid.className = 'status-news-grid';
+                    others.slice(0, 20).forEach(d => {
+                        const card = document.createElement('div');
+                        card.className = 'news-card';
+                        card.innerHTML = `
+                            <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+                                <b style="color:var(--primary)">${d.Medio || 'N/A'}</b>
+                                <small style="color:#999">${d.Fecha || ''}</small>
+                            </div>
+                            <div style="margin-bottom:5px; line-height:1.3;">${d.Titular || 'Sin título'}</div>
+                        `;
+                        grid.appendChild(card);
+                    });
+                    groupDiv.appendChild(grid);
+                    div.appendChild(groupDiv);
+                }
             }
         </script>
 </body>
