@@ -254,7 +254,7 @@
         }
 
         .news-grid.active {
-            display: grid;
+            display: block;
         }
 
         /* Visible cuando tiene la clase 'active' */
@@ -340,13 +340,30 @@
         .multiselect-search {
             padding: 8px;
             border-bottom: 1px solid #eee;
+            display: flex;
+            gap: 5px;
+            align-items: center;
         }
 
         .multiselect-search input {
-            width: 100%;
+            flex-grow: 1;
             padding: 5px;
             border: 1px solid #eee;
             border-radius: 3px;
+        }
+
+        .btn-clear-filter {
+            padding: 4px 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .btn-clear-filter:hover {
+            background: #e0e0e0;
         }
 
         .multiselect-options {
@@ -393,7 +410,6 @@
             margin-bottom: 10px;
             border-radius: 4px;
             color: white;
-            text-transform: uppercase;
         }
 
         .status-header.negativa {
@@ -411,7 +427,14 @@
         .status-news-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 10px;
+            gap: 15px;
+            padding-bottom: 15px;
+            width: 100%;
+        }
+
+        .status-news-grid .news-card {
+            margin: 0;
+            /* Remove fixed widths if any */
         }
 
         @media (max-width: 1000px) {
@@ -459,6 +482,7 @@
                     <div class="multiselect-content" id="content-f-grupo">
                         <div class="multiselect-search">
                             <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-grupo', this.value)">
+                            <button class="btn-clear-filter" onclick="clearFilter('f-grupo')">Borrar</button>
                         </div>
                         <div class="multiselect-options" id="options-f-grupo"></div>
                     </div>
@@ -484,6 +508,7 @@
                     <div class="multiselect-content" id="content-f-medio">
                         <div class="multiselect-search">
                             <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-medio', this.value)">
+                            <button class="btn-clear-filter" onclick="clearFilter('f-medio')">Borrar</button>
                         </div>
                         <div class="multiselect-options" id="options-f-medio"></div>
                     </div>
@@ -496,6 +521,7 @@
                     <div class="multiselect-content" id="content-f-tema">
                         <div class="multiselect-search">
                             <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-tema', this.value)">
+                            <button class="btn-clear-filter" onclick="clearFilter('f-tema')">Borrar</button>
                         </div>
                         <div class="multiselect-options" id="options-f-tema"></div>
                     </div>
@@ -508,6 +534,7 @@
                     <div class="multiselect-content" id="content-f-recurso">
                         <div class="multiselect-search">
                             <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-recurso', this.value)">
+                            <button class="btn-clear-filter" onclick="clearFilter('f-recurso')">Borrar</button>
                         </div>
                         <div class="multiselect-options" id="options-f-recurso"></div>
                     </div>
@@ -520,6 +547,7 @@
                     <div class="multiselect-content" id="content-f-estatus">
                         <div class="multiselect-search">
                             <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-estatus', this.value)">
+                            <button class="btn-clear-filter" onclick="clearFilter('f-estatus')">Borrar</button>
                         </div>
                         <div class="multiselect-options" id="options-f-estatus"></div>
                     </div>
@@ -532,6 +560,7 @@
                     <div class="multiselect-content" id="content-f-nivel">
                         <div class="multiselect-search">
                             <input type="text" placeholder="Buscar..." onkeyup="filterOptions('f-nivel', this.value)">
+                            <button class="btn-clear-filter" onclick="clearFilter('f-nivel')">Borrar</button>
                         </div>
                         <div class="multiselect-options" id="options-f-nivel"></div>
                     </div>
@@ -825,6 +854,19 @@
                 }
 
                 updateToggleText(filterId);
+                applyFilters();
+            }
+
+            function clearFilter(filterId) {
+                activeSelections[filterId] = [];
+                updateToggleText(filterId);
+                const optionsDiv = document.getElementById(`options-${filterId}`);
+                if (optionsDiv) {
+                    optionsDiv.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+                }
+                const searchInput = document.querySelector(`#content-${filterId} .multiselect-search input`);
+                if (searchInput) searchInput.value = "";
+                filterOptions(filterId, "");
                 applyFilters();
             }
 
@@ -1344,7 +1386,6 @@
                         const s = (d.Estatus || '').toLowerCase();
                         const card = document.createElement('div');
                         card.className = `news-card ${s}`;
-                        card.style.display = 'block'; // Ensure it's not grid-span unless intended
                         card.innerHTML = `
                             <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
                                 <b style="color:var(--primary)">${d.Medio || 'N/A'} <span style="font-weight:normal; color:#666; font-size:0.8rem;">(${d['Recurso editorial'] || ''})</span></b>
