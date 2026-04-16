@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "El Sol de Hidalgo",
         "Titular": "Aumenta el precio del jitomate en 126%: Inegi",
@@ -199,11 +200,21 @@
         "Dependencia": "Semot",
         "Organismo": "Sitmah",
         "Tema": "Modernización Tuzobús",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Menos homicidios dolosos en Hidalgo",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "PGJEH",
+        "Organismo": "PGJEH",
+        "Tema": "Incidencia Delictiva",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
         "Estatus": "Positiva",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
     },
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "Milenio Hidalgo",
         "Titular": "Proponen eliminar una sindicatura y regidores",
@@ -231,6 +242,11 @@
         "Fecha": "2026-04-16",
         "Medio": "Milenio Hidalgo",
         "Titular": "Ponga fin a la ansiedad financiera",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Limitan interacción por miedo a ser funados",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
         "Recurso editorial": "Llamado",
         "Dependencia": "Otros",
         "Organismo": "Otros",
@@ -240,6 +256,7 @@
         "Nivel": "otros"
     },
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "Milenio Hidalgo",
         "Titular": "El estado se ubica entre los que más disminuyen el embarazo infantil",
@@ -271,11 +288,33 @@
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Temas varios",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Clausuran barranca de Metztitlán por explotación",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Clausura de empresa contaminante",
+        "Estatus": "Informativa",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Ley de devolución excluye al Códice Borbónico",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Códice borbónico",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
         "Estatus": "Informativa",
         "Grupo": "Otros",
         "Nivel": "otros"
     },
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "Milenio Hidalgo",
         "Titular": "González Iñárritu y Tom Cruise agitan Las Vegas con Digger",
@@ -294,12 +333,129 @@
         "Recurso editorial": "Ocho columnas",
         "Dependencia": "Congreso",
         "Organismo": "Congreso",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "El Sol de Hidalgo",
+        "Titular": "Aumento de pasaje no afectará economía",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Dan espacio al arte",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Despacho",
+        "Organismo": "Despacho",
+        "Tema": "Intervención Gráfica",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Bajan homicidios dolosos: CSP",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Incidencia Delictiva",
+        "Estatus": "Positiva",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Planean regular salarios de alcaldes sin violar autonomía",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Congreso",
+        "Organismo": "GLMorena",
+        "Tema": "Iniciativa",
+        "Estatus": "Positiva",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Avisan vía notario de riesgo a afectados",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Reubicación de viviendas",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Pensar la historia como una disciplina fundamental implica reconocer que el pasado no es un conjunto de fechas y nombres, sino un campo vivo de...",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "TUZOS BUSCARÁN LACOPA LA INMORTALIDAD",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Deportes",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "PSG Y EL ATLÉTICO  AVANZAN A SEMIS",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Deportes",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "NO ACEPTARÁN “CHANTAJE” POR EL NUEVO PASAJE",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "PROPONEN ELIMINAR  LAS SINDICATURAS DE  MINORÍA EN CABILDOS",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Congreso",
+        "Organismo": "GLMorena",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
         "Tema": "Iniciativa",
         "Estatus": "Informativa",
         "Grupo": "Otros",
         "Nivel": "otros"
     },
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "La Jornada Hidalgo",
         "Titular": "Ratifican positiva calificación crediticia",
@@ -307,11 +463,45 @@
         "Dependencia": "Hacienda",
         "Organismo": "Hacienda",
         "Tema": "Calificación crediticia",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "ALCALDÍA Y  TIENDAS OXXO  REHABILITAN EL  JARDÍN DEL ARTE",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Rehabilitación de espacios públicos",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Hidalgo ingresó 1,235 millones de pesos en la Semana Santa",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Turismo",
+        "Organismo": "Turismo",
+        "Tema": "Semana Santa",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "El Universal Hidalgo",
+        "Titular": "Esperan que Hospital General de Actopan funcione este año",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "SSH",
+        "Organismo": "titular",
+        "Tema": "Nuevo Hospital General",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
         "Estatus": "Informativa",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
     },
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "La Jornada Hidalgo",
         "Titular": "Fracking, hasta tener evaluación soberana",
@@ -319,11 +509,93 @@
         "Dependencia": "Presidencia",
         "Organismo": "Presidencia",
         "Tema": "Fracking",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Crece el presupuesto de Pachuca; priorizan inversión en seguridad",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Modificación Presupuestal",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Preparan actividades para recibir  a los turistas",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Mundial De Futbol",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "En Semana Santa estado recibe más de 1,235 mdp",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Turismo",
+        "Organismo": "Turismo",
+        "Tema": "Semana Santa",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Tuzobús no logra metas de viajes... ni de ingresos",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Semot",
+        "Organismo": "Sitmah",
+        "Tema": "Deficiencias Tuzobús",
+        "Estatus": "Negativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Hallan vestigios de más de 4 mil años; cambian trazo del tren",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Tren México Querétaro",
         "Estatus": "Informativa",
         "Grupo": "Presidencia de la República",
         "Nivel": "otros"
     },
     {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Julio Menchaca: habrá aumento en la tarifa, pero sin chantajes",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Originario de Zimapán, el minero que sigue atrapado",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Temas varios",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
+        "Estatus": "Informativa",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "otros"
+    },
+    {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "La Jornada Hidalgo",
         "Titular": "Comunidad sale a las calles contra iniciativa antitaurina",
@@ -687,6 +959,11 @@
         "Fecha": "2026-04-16",
         "Medio": "Plaza Juárez",
         "Titular": "La Fiesta Brava es un acto de crueldad animal: Avelino Tovar",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Tratamientos para vivir más sin certificado científico",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
         "Recurso editorial": "Llamado",
         "Dependencia": "Congreso",
         "Organismo": "GLPVEM",
@@ -696,6 +973,7 @@
         "Nivel": "otros"
     },
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "Plaza Juárez",
         "Titular": "En momentos que padecemos asesinatos y desapariciones de miles de mexicanos, el diputado Avelino del partido Verde, se preocupa más por el sufrimiento de los toros",
@@ -703,11 +981,93 @@
         "Dependencia": "Congreso",
         "Organismo": "GLPVEM",
         "Tema": "Tauromaquia",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Magnicharters adeuda $150 millones a agencias y dueños se esfuman",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Una fuente de electricidad al menos por familia en 2030",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Energías renovables",
+        "Estatus": "Positiva",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Milenio Hidalgo",
+        "Titular": "Shock chino 2.0 con productos de alta tecnología",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas internacionales",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "La Jornada Hidalgo",
+        "Titular": "Nuevas tarifas del transporte estarán listas este mes: JMS",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "La Jornada Hidalgo",
+        "Titular": "Municipios buscan contratar deuda tras daños por vaguada",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Huracán Priscilla",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "La Jornada Hidalgo",
+        "Titular": "Sheinbaum destaca caída de 45% en homicidios y escuela de Mandos",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Incidencia Delictiva",
+        "Estatus": "Positiva",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "La Jornada Hidalgo",
+        "Titular": "Lluvias arrastran hidrocarburo a Poza Rica y Coatzintla: Pemex",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "Pemex",
+        "Tema": "Fuga de hidrocarburo",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
         "Estatus": "Negativa",
         "Grupo": "Otros",
         "Nivel": "otros"
     },
     {
+<<<<<<< HEAD
         "Fecha": "2026-04-16",
         "Medio": "Plaza Juárez",
         "Titular": "Trabajador atrapado en mina de Sinaloa sería hidalguense",
@@ -715,8 +1075,428 @@
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Rescate de persona",
+=======
+        "Fecha": "2026-04-15",
+        "Medio": "La Jornada Hidalgo",
+        "Titular": "Colaplsa barda de INFRA y destroza camioneta",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Segobh",
+        "Organismo": "PC",
+        "Tema": "Prevención De Riesgos",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "La Jornada Hidalgo",
+        "Titular": "La diferencia es que en San Luis Potosí el gobierno es ecologista y aquí  morenista y, por lo que se ha visto, el grupo en el poder no está dispuesto  a perder en las primeras elecciones los que les llevó tanto tiempo ganar”.",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Morena",
+        "Organismo": "Morena",
+        "Tema": "Alianzas Electorales",
+        "Estatus": "Informativa",
+        "Grupo": "Partidos",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Síntesis",
+        "Titular": "Exponen 15 hidalguenses su arte en Palacio de  Gobierno con “Hióki”",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Intervención Gráfica",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Síntesis",
+        "Titular": "Pachuca rehabilita el Jardín del Arte con apoyo de la iniciativa privada",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "alcalde",
+        "Tema": "Rehabilitación de espacios públicos",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Síntesis",
+        "Titular": "Supera Hidalgo los 2.4 millones de visitantes en Semana Santa 2026",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Turismo",
+        "Organismo": "Titular",
+        "Tema": "Semana Santa",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Síntesis",
+        "Titular": "Aumento de tarifa del transporte  será “razonable” y podría definirse  este mes: Menchaca",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Zunoticia",
+        "Titular": "Pide Napeoleón a productores no caer en pánico por gusano barrenador",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Saderh",
+        "Organismo": "Titular",
+        "Tema": "Gusano barrenador",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Zunoticia",
+        "Titular": "JULIO MENCHACA INAUGURA INTERVENCIÓN GRÁFICA 4.1 HlóKi",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Intervención Gráfica",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Zunoticia",
+        "Titular": "Productores apícolas piden certificación",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Certificación",
         "Estatus": "Informativa",
         "Grupo": "Otros",
         "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Zunoticia",
+        "Titular": "La reconstrucción de los puentes es con recurso federal: SICT",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "SICT",
+        "Tema": "Huracán Priscilla",
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+<<<<<<< HEAD
+=======
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Effetá",
+        "Titular": "Reactivan ícono de Pachuca",
+        "Recurso editorial": "Foco gráfico",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Alcalde",
+        "Tema": "Rehabilitación de espacios públicos",
+        "Estatus": "Positiva",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Effetá",
+        "Titular": "El oficio político en tiempos de protagonismo",
+        "Recurso editorial": "Editorial",
+        "Dependencia": "Despacho",
+        "Organismo": "Titular",
+        "Tema": "Labor destacada",
+        "Estatus": "Positiva",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Effetá",
+        "Titular": "Carril exclusivo del Tuzobús, decisión en beneficio de la mayoría: Menchaca",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Carril confinado",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Effetá",
+        "Titular": "PAN acusa \"\"robo\"\" de militantes",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "PAN",
+        "Organismo": "PAN",
+        "Tema": "Militancia Partidista",
+        "Estatus": "Informativa",
+        "Grupo": "Partidos",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Effetá",
+        "Titular": "En abril, aumento al pasaje",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Effetá",
+        "Titular": "¡Solo dos sanciones en 10 años!",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Semarnath",
+        "Organismo": "Proespa",
+        "Tema": "Maltrato animal",
+        "Estatus": "Negativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Hidalgo fortalece acciones para prevenir el embarazo en niñas y adolescentes",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Segobh",
+        "Organismo": "Coespo",
+        "Tema": "Prevención De Embarazo Adolescente",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Entregan en Tula calentadores del programa \"\"Energía para el Bienestar\"\"",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Sedeco",
+        "Organismo": "AEEH",
+        "Tema": "Energía para el Bienestar",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Iniciaron los trabajos de pavimentación asfáltica en Ignacio Zaragoza",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Pavimentación",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Como un \"acto de reconstrucción\", Julio Menchaca inaugura intervención gráfica 4.1",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Intervención Gráfica",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Jorge Reyes y Oxxo intervienen el Jardín del Arte para reactivar un espacio emblemático",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "alcalde",
+        "Tema": "Apropiación de espacios públicos",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Usa el puente peatonal",
+        "Recurso editorial": "Publicidad",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Publicidad gubernamental",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Rehabilitación de la calle Vía de los Reyes fortalece la conectividad en EI Daxthá, Actopan",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Rehabilitación Vial",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Marfeca",
+        "Titular": "Natividad Castrejón abandera delegación hidalguense rumbo a la Olimpiada Nacional Conade",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "SEPH",
+        "Organismo": "Titular",
+        "Tema": "Justa Deportiva",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Nueva tarifa de transporte, para este mes: Julio Menchaca",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Abanderan delegación hidalguense rumbo a la Olimpiada Nacional",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "SEPH",
+        "Organismo": "Titular",
+        "Tema": "Justa Deportiva",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Jorge Reyes y Oxxo intervienen el Jardín del Arte para reactivar un espacio emblemático",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Rehabilitación de espacios públicos",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Participan 15 artistas en intervención gráfica 4.1 Hióki, en edificio de gobierno",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Despacho",
+        "Organismo": "Despacho",
+        "Tema": "Intervención Gráfica",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Máquina del tiempo",
+        "Recurso editorial": "Publicidad",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Pachuca Brilla",
+        "Titular": "Usa el puente peatonal",
+        "Recurso editorial": "Publicidad",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Publicidad gubernamental",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Plaza Juárez",
+        "Titular": "Confirman incremento al pasaje del transporte público",
+        "Recurso editorial": "Ocho columnas",
+        "Dependencia": "Gobernador",
+        "Organismo": "Gobernador",
+        "Tema": "Aumento Tarifa De Transporte",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Plaza Juárez",
+        "Titular": "Refuerzan atención y control del gusano barrenador",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Saderh",
+        "Organismo": "Saderh",
+        "Tema": "Gusano barrenador",
+        "Estatus": "Informativa",
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Plaza Juárez",
+        "Titular": "Denuncian entrega de bonos a regidores mediante apoyos",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Ayuntamiento",
+        "Organismo": "Ayuntamiento",
+        "Tema": "Entrega De Apoyos",
+        "Estatus": "Informativa",
+        "Grupo": "Alcaldías",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Plaza Juárez",
+        "Titular": "Los homicidios cayeron un 41% en 18 meses con Sheinbaum",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Presidencia",
+        "Organismo": "Presidencia",
+        "Tema": "Incidencia Delictiva",
+        "Estatus": "Positiva",
+        "Grupo": "Presidencia de la República",
+        "Nivel": "otros"
+    },
+    {
+        "Fecha": "2026-04-15",
+        "Medio": "Plaza Juárez",
+        "Titular": "A pesar de que no han subido de precio las gasolinas, los demás productos básico se han elevado como cohetes, lo que obliga a la gente a comprar por medios kilos o medios litros",
+        "Recurso editorial": "Llamado",
+        "Dependencia": "Otros",
+        "Organismo": "Otros",
+        "Tema": "Temas varios",
+        "Estatus": "Informativa",
+        "Grupo": "Otros",
+        "Nivel": "otros"
+>>>>>>> da2d1337f718e36b7384050af73747aa7443c382
     }
 ]
