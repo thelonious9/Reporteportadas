@@ -8,8 +8,8 @@
         "Organismo": "Presidencia",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Otros",
-        "Nivel": "otros"
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -20,8 +20,8 @@
         "Organismo": "Alcalde",
         "Tema": "Bloqueo Carretero",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -32,8 +32,8 @@
         "Organismo": "STCH",
         "Tema": "Supervisión de Transporte",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -44,8 +44,8 @@
         "Organismo": "Otros",
         "Tema": "Temas varios",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -56,8 +56,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -68,8 +68,8 @@
         "Organismo": "Gobernador",
         "Tema": "Aprobación Gobernador",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
     },
     {
         "Fecha": "2026-07-03",
@@ -80,8 +80,8 @@
         "Organismo": "Sipdus",
         "Tema": "Salón De Plenos",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -92,8 +92,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -104,8 +104,8 @@
         "Organismo": "Semarnath",
         "Tema": "Verificentros",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -116,8 +116,8 @@
         "Organismo": "CBPEH",
         "Tema": "Localización de persona",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -128,8 +128,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -140,8 +140,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -152,8 +152,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -164,8 +164,8 @@
         "Organismo": "Universidades",
         "Tema": "Observaciones ASEH",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -176,8 +176,8 @@
         "Organismo": "Alcalde",
         "Tema": "Suplantación de identidad",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -188,8 +188,8 @@
         "Organismo": "Otros",
         "Tema": "Temas varios",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -200,8 +200,8 @@
         "Organismo": "Otros",
         "Tema": "Afectaciones Por Lluvias",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -212,8 +212,8 @@
         "Organismo": "Titular",
         "Tema": "Salón De Plenos",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Partidos",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -224,8 +224,8 @@
         "Organismo": "Semarnath",
         "Tema": "Multas por verificación vehicular",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -236,8 +236,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -248,8 +248,8 @@
         "Organismo": "Otros",
         "Tema": "Temas internacionales",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -260,8 +260,8 @@
         "Organismo": "Presidencia",
         "Tema": "Proyectos Ferroviarios",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -272,8 +272,8 @@
         "Organismo": "Otros",
         "Tema": "Temas internacionales",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -284,8 +284,8 @@
         "Organismo": "Presidencia",
         "Tema": "T-MEC",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -296,8 +296,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Videovigilancia",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -308,8 +308,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Ley seca",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -320,8 +320,8 @@
         "Organismo": "Otros",
         "Tema": "Tribunal Agrario",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -332,8 +332,8 @@
         "Organismo": "Congreso",
         "Tema": "Reforma De Ley",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -344,8 +344,8 @@
         "Organismo": "Otros",
         "Tema": "Afectaciones Por Lluvias",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -356,8 +356,8 @@
         "Organismo": "Alcalde",
         "Tema": "Toma de alcaldía",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -368,8 +368,8 @@
         "Organismo": "Presidencia",
         "Tema": "T-MEC",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -380,8 +380,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -392,8 +392,8 @@
         "Organismo": "Gobernador",
         "Tema": "Aprobación Gobernador",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
     },
     {
         "Fecha": "2026-07-03",
@@ -404,8 +404,8 @@
         "Organismo": "Otros",
         "Tema": "Erradicación Violencia De Género",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -416,8 +416,8 @@
         "Organismo": "Gobernador",
         "Tema": "Video Mapping",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
     },
     {
         "Fecha": "2026-07-03",
@@ -428,8 +428,8 @@
         "Organismo": "CBPEH",
         "Tema": "Localización de persona",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -440,8 +440,8 @@
         "Organismo": "PGJEH",
         "Tema": "Deceso alcalde",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -452,8 +452,8 @@
         "Organismo": "Alcalde",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -464,8 +464,8 @@
         "Organismo": "Congreso",
         "Tema": "Reforma De Ley",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -476,8 +476,8 @@
         "Organismo": "CFE",
         "Tema": "Retención",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -488,8 +488,8 @@
         "Organismo": "CBPEH",
         "Tema": "Búsqueda de personas",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -500,8 +500,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Alerta Meteorológica",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -512,8 +512,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Desazolve",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -524,8 +524,8 @@
         "Organismo": "Gobernador",
         "Tema": "Video Mapping",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
     },
     {
         "Fecha": "2026-07-03",
@@ -536,8 +536,8 @@
         "Organismo": "Gobernador",
         "Tema": "Aprobación Gobernador",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
     },
     {
         "Fecha": "2026-07-03",
@@ -548,8 +548,8 @@
         "Organismo": "Titular",
         "Tema": "Observaciones ASEH",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Partidos",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -560,8 +560,8 @@
         "Organismo": "Sipdus",
         "Tema": "Salón De Plenos",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -572,8 +572,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Ejecución de obras",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -584,8 +584,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Mundial De Futbol",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -596,8 +596,8 @@
         "Organismo": "SSPH",
         "Tema": "Combate Al Narcomenudeo",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -608,8 +608,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Ley seca",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -620,8 +620,8 @@
         "Organismo": "Titular",
         "Tema": "Búsqueda de personas",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -632,8 +632,8 @@
         "Organismo": "Inhide",
         "Tema": "CDHAR",
         "Estatus": "Positiva",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -644,8 +644,8 @@
         "Organismo": "Alcalde",
         "Tema": "Toma de alcaldía",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -656,8 +656,8 @@
         "Organismo": "Gobernador",
         "Tema": "Video Mapping",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gobernador"
     },
     {
         "Fecha": "2026-07-03",
@@ -668,8 +668,8 @@
         "Organismo": "Ayuntamiento",
         "Tema": "Obras De Infraestructura",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Alcaldías",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -680,8 +680,8 @@
         "Organismo": "Conagua",
         "Tema": "Prevención de inundaciones",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -692,8 +692,8 @@
         "Organismo": "Otros",
         "Tema": "Reunión Nacional",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -704,8 +704,8 @@
         "Organismo": "GLMorena",
         "Tema": "Exhorto",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -716,8 +716,8 @@
         "Organismo": "GLMorena",
         "Tema": "Reforma De Ley",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -728,8 +728,8 @@
         "Organismo": "Otros",
         "Tema": "Mundial De Futbol",
         "Estatus": "Negativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
         "Fecha": "2026-07-03",
@@ -740,8 +740,8 @@
         "Organismo": "SSPH",
         "Tema": "Combate Al Narcomenudeo",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Gobierno del estado",
+        "Nivel": "Gabinete"
     },
     {
         "Fecha": "2026-07-03",
@@ -752,7 +752,7 @@
         "Organismo": "Presidencia",
         "Tema": "T-MEC",
         "Estatus": "Informativa",
-        "Grupo": "Sin especificar",
-        "Nivel": "Sin especificar"
+        "Grupo": "Presidencia de la República",
+        "Nivel": "Otros"
     }
 ]
