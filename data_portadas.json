@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "El Sol de Hidalgo",
         "Titular": "Llega foranía Sierra Hidalgo-Veracruz",
@@ -8,21 +7,11 @@
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Temas varios",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "El Sol de Hidalgo",
-        "Titular": "Habilitan la nueva estación de bomberos y oficinas de PC",
-        "Recurso editorial": "Foco gráfico",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
+        "Grupo": "Otros",
+        "Nivel": "Otros"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "El Sol de Hidalgo",
         "Titular": "Enfrentan usurpación, reventa y regateo",
@@ -210,21 +199,11 @@
         "Dependencia": "Congreso",
         "Organismo": "Congreso",
         "Tema": "Reforma De Ley",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "El Sol de Hidalgo",
-        "Titular": "Rescatan a venada cola blanca en El Xuchitl",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Rescate Animal",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Informativa",
         "Grupo": "Otros",
         "Nivel": "Otros"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Criterio",
         "Titular": "Evalúan la compra de 4 mil compus para el CASP",
@@ -232,57 +211,11 @@
         "Dependencia": "Oficialía Mayor",
         "Organismo": "Oficialía Mayor",
         "Tema": "Complejo Gubernamental",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "El Sol de Hidalgo",
-        "Titular": "Revisan expedientes de indígenas presos",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Planeación",
-        "Organismo": "Cedspi",
-        "Tema": "Excarcelación",
         "Estatus": "Informativa",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
     },
     {
-        "Fecha": "2026-07-29",
-        "Medio": "El Sol de Hidalgo",
-        "Titular": "Monitorea IA examen de los maestros de SEP",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Presidencia",
-        "Organismo": "Presidencia",
-        "Tema": "Inteligencia Artificial",
-        "Estatus": "Informativa",
-        "Grupo": "Presidencia de la República",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "El Sol de Hidalgo",
-        "Titular": "Preocupa suspensión de recolección de basura",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Recolección De Basura",
-        "Estatus": "Negativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "El Universal Hidalgo",
-        "Titular": "Estrenan estación de bomberos",
-        "Recurso editorial": "Foco gráfico",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Milenio Hidalgo",
         "Titular": "lidera el estado crecimiento económico con alza de 8.16%",
@@ -302,21 +235,11 @@
         "Dependencia": "Hacienda",
         "Organismo": "Hacienda",
         "Tema": "Calificación crediticia",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "El Universal Hidalgo",
-        "Titular": "Buscan excarcelar a 70 indígenas hidalguenses",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Planeación",
-        "Organismo": "Cedspi",
-        "Tema": "Excarcelación",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Informativa",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Milenio Hidalgo",
         "Titular": "Rechaza Menchaca críticas y defiende incorporación",
@@ -433,21 +356,10 @@
         "Organismo": "Presidencia",
         "Tema": "Refuerzo De Seguridad",
         "Estatus": "Positiva",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "El Universal Hidalgo",
-        "Titular": "Reconocen a personal operativo en Mundial",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Presidencia",
-        "Organismo": "Presidencia",
-        "Tema": "Mundial De Futbol",
-        "Estatus": "Informativa",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Grupo": "Presidencia de la República",
         "Nivel": "Otros"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "La Jornada Hidalgo",
         "Titular": "Velázquez ve posible modificar candidaturas por orden alfabético",
@@ -587,33 +499,11 @@
         "Dependencia": "Otros",
         "Organismo": "Otros",
         "Tema": "Convocatoria",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "El Universal Hidalgo",
-        "Titular": "Inyectan $224 millones para obras públicas",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Ejecución de obras",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "El Universal Hidalgo",
-        "Titular": "Trío Aurora, con sold out en EE. UU.",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Congreso",
-        "Organismo": "Congreso",
-        "Tema": "Entrega de reconocimientos",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Informativa",
         "Grupo": "Otros",
         "Nivel": "Otros"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Effetá",
         "Titular": "\"Los programas sociales no son dádivas, son un respaldo al pueblo\": Menchaca",
@@ -621,45 +511,11 @@
         "Dependencia": "Gobernador",
         "Organismo": "Gobernador",
         "Tema": "Ruta de la Transformación",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Criterio",
-        "Titular": "Van por el orgullo",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Otros",
-        "Organismo": "Otros",
-        "Tema": "Deportes",
-        "Estatus": "Informativa",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Criterio",
-        "Titular": "Mucho más que un juego de estrellas",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Otros",
-        "Organismo": "Otros",
-        "Tema": "Deportes",
-        "Estatus": "Informativa",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Criterio",
-        "Titular": "Julio Menchaca Salazar respalda reforma electoral",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Reforma Electoral",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Positiva",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gobernador"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Effetá",
         "Titular": "Congreso designa a comisionadas del ITAIH como contraloras",
@@ -667,21 +523,11 @@
         "Dependencia": "Congreso",
         "Organismo": "Congreso",
         "Tema": "Órganos de Control Interno",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Criterio",
-        "Titular": "Crear municipio no resuelve las carencias, dice legisladora",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Congreso",
-        "Organismo": "GLMorena",
-        "Tema": "Municipio 85",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Informativa",
         "Grupo": "Otros",
         "Nivel": "Otros"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Effetá",
         "Titular": "Jorge Reyes lleva servicios municipales a Santa Julia",
@@ -702,21 +548,10 @@
         "Organismo": "SSPH",
         "Tema": "Combate Al Narcomenudeo",
         "Estatus": "Positiva",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Criterio",
-        "Titular": "Artesanos no se han acercado a la Secretaría de Cultura: Titular",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Cultura",
-        "Organismo": "titul",
-        "Tema": "Plagio",
-        "Estatus": "Informativa",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Effetá",
         "Titular": "Movilidad coordina el despeje del carril del Tuzobús",
@@ -724,213 +559,11 @@
         "Dependencia": "Semot",
         "Organismo": "Sitmah",
         "Tema": "Carril confinado",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Criterio",
-        "Titular": "Inauguran una nueva estación de Bomberos",
-        "Recurso editorial": "Foco gráfico",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Criterio",
-        "Titular": "Ricardo Crespo presume 140 mil obras en Hidalgo",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Otros",
-        "Organismo": "Otros",
-        "Tema": "Trabajo legislativo",
-        "Estatus": "Positiva",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Milenio Hidalgo",
-        "Titular": "Abatir rezago debe ser para mejorar el acceso a la justicia: Menchaca",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Acceso a la justicia",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Milenio Hidalgo",
-        "Titular": "Salud mental en casos de desaparición",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "UAEH",
-        "Organismo": "UAEH",
-        "Tema": "Personas desaparecidas",
-        "Estatus": "Informativa",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Milenio Hidalgo",
-        "Titular": "Desconocen el paradero del hospital portátil",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Oficialía Mayor",
-        "Organismo": "Oficialía Mayor",
-        "Tema": "Hospital inflable",
-        "Estatus": "Negativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Milenio Hidalgo",
-        "Titular": "Cuatro de cada 10 balnearios incumplen con norma sanitaria",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "SSH",
-        "Organismo": "Copriseh",
-        "Tema": "Certificación sanitaria",
         "Estatus": "Informativa",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
     },
     {
-        "Fecha": "2026-07-29",
-        "Medio": "Milenio Hidalgo",
-        "Titular": "Mejoran la atención de emergencias en Pachuca",
-        "Recurso editorial": "Foco gráfico",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Milenio Hidalgo",
-        "Titular": "Plan México: BM se alinea, empujará empleo e inversión",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Presidencia",
-        "Organismo": "Presidencia",
-        "Tema": "Plan México",
-        "Estatus": "Informativa",
-        "Grupo": "Presidencia de la República",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "La Jornada Hidalgo",
-        "Titular": "Refuerzan padrón de artesanos contra plagios",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Cultura",
-        "Organismo": "Cultura",
-        "Tema": "Plagio",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "La Jornada Hidalgo",
-        "Titular": "Analizan dejar libres a indígenas en casos de delitos no graves",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Planeación",
-        "Organismo": "Cedspi",
-        "Tema": "Excarcelación",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "La Jornada Hidalgo",
-        "Titular": "Anuncian consulta sobre derechos de las audiencias",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Presidencia",
-        "Organismo": "Presidencia",
-        "Tema": "Consulta Ciudadana",
-        "Estatus": "Informativa",
-        "Grupo": "Presidencia de la República",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "La Jornada Hidalgo",
-        "Titular": "Ofrece Sheinbaum auxilio de Agencia Digital a la UNAM",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Presidencia",
-        "Organismo": "Presidencia",
-        "Tema": "Temas varios",
-        "Estatus": "Informativa",
-        "Grupo": "Presidencia de la República",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "La Jornada Hidalgo",
-        "Titular": "Entregan nueva estación de bomberos por 91 mdp",
-        "Recurso editorial": "Foco gráfico",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "La Jornada Hidalgo",
-        "Titular": "La oportunidad de esclarecer los hechos y saber si Jasso era culpable  se perdió. Con su muerte se cierra la investigación, así que la duda  se quedará y sobre esa duda no debemos siquiera seguir especulando  sobre los hechos. Es decir: no habrá justicia para nadie”.",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Otros",
-        "Organismo": "Otros",
-        "Tema": "Abuso Sexual",
-        "Estatus": "Informativa",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Inaugura Menchaca nueva Estación de Bomberos en Pachuca",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Reconoce 66 Legislatura local trayectoria del Trío Aurora Hidalguense",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Congreso",
-        "Organismo": "Congreso",
-        "Tema": "Entrega de reconocimientos",
-        "Estatus": "Informativa",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Cultura va contra revendedores; integra padrón de artesanos",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Cultura",
-        "Organismo": "Cultura",
-        "Tema": "Plagio",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Pachuca Brilla",
         "Titular": "Consolida Jorge Reyes la atención en territorio en Pachuca",
@@ -950,21 +583,11 @@
         "Dependencia": "SEPH",
         "Organismo": "IHE",
         "Tema": "Certificación de idioma",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Huejutla y cinco estados compartirán la riqueza de la huasteca en el Festival Tlajtoli 2026",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Cultura",
-        "Organismo": "Cultura",
-        "Tema": "Tlajtoli",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Informativa",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Pachuca Brilla",
         "Titular": "Consolida Hidalgo tres años consecutivos de mejora en su calidad crediticia",
@@ -996,243 +619,13 @@
         "Dependencia": "Gobernador",
         "Organismo": "Gobernador",
         "Tema": "Ruta de la Transformación",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Reconocen esfuerzo nacional durante Mudial de Futbol",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Mundial De Futbol",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Estatus": "Positiva",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gobernador"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Pachuca Brilla",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Capashh invita a usuarios a regular sus pagos",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Agua",
-        "Tema": "Pago de Servicios",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Fuerte derrumbe en La Virgencita de la México-Tampico",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Derrumbe Carretero",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Inician las macrojornadas de salud visual en Huejutla",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Salud Visual",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Rescatan a venada en Huejutla",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Rescate Animal",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Síntesis",
-        "Titular": "Contraloría supervisa entrega de apoyos sociales",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Contraloría",
-        "Organismo": "Contraloría",
-        "Tema": "Vigilancia del gasto público",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Effetá",
-        "Titular": "Huejutla reunirá a pueblos originarios de seis estados",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Tlajtoli",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Effetá",
-        "Titular": "Inauguran Sendero Seguro en Tizayuca",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Alcalde",
-        "Tema": "Ejecución de obras",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Effetá",
-        "Titular": "Yo creo que duelen dos derrotas continuas\"\": Menchaca a Viggiano",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Enfrentamiento Político",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Effetá",
-        "Titular": "Menchaca entrega nueva estación de Bomberos  y PC",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Effetá",
-        "Titular": "Reforma electoral no se aprobará en \"\"fast track\"\"",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Congreso",
-        "Organismo": "Junta de Gobierno",
-        "Tema": "Reforma Electoral",
-        "Estatus": "Positiva",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Effetá",
-        "Titular": "Buscan liberar hasta 70 personas indígenas encarceladas",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Planeación",
-        "Organismo": "Cedspi",
-        "Tema": "Excarcelación",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
-        "Titular": "Alistan 17a Feria de la Planta Medicinal en Ajacuba",
-        "Recurso editorial": "Cintillo",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Festival Cultural",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
-        "Titular": "Policía de Pachuca detiene a presunto responsable de robo a casa habitación en Santa Julia",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Policía municipal",
-        "Tema": "Combate a la delincuencia",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
-        "Titular": "Reconocen esfuerzo nacional durante Mundial de Futbol 2026",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Mundial De Futbol",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
-        "Titular": "Julio Menchaca prioriza atención de emergencias con nuevas instalaciones para bomberos y PC",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
-        "Titular": "Contraloría supervisa entrega de apoyos sociales y fortalece la transparencia en Tepehuacán de Guerrero",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Contraloría",
-        "Organismo": "Contraloría",
-        "Tema": "Vigilancia del gasto público",
-        "Estatus": "Positiva",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
-        "Titular": "Realizan jornada de esterilización canina y felina en Ajacuba",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Campaña de esterilización",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
-        "Titular": "Municipio y Estado unen esfuerzos para acercar servicios y programas a la población migrante de Ajacuba",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Atención A Migrantes",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Marfeca",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Titular": "Hidalgo tiene algo",
         "Recurso editorial": "Publicidad",
         "Dependencia": "Turismo",
@@ -1243,7 +636,6 @@
         "Nivel": "Gabinete"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Pachuca Brilla",
         "Titular": "Una sola voz contra la trata",
@@ -1288,21 +680,10 @@
         "Organismo": "Gobernador",
         "Tema": "Ruta de la Transformación",
         "Estatus": "Informativa",
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Pachuca Brilla",
-        "Titular": "Julio Menchaca prioriza atención de emergencias ocn nuevas instalaciones para Bomberos y PC",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Positiva",
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
         "Grupo": "Gobierno del estado",
         "Nivel": "Gobernador"
     },
     {
-<<<<<<< HEAD
         "Fecha": "2026-07-30",
         "Medio": "Plaza Juárez",
         "Titular": "Designan a titulares de Órganos Internos de Control",
@@ -1313,137 +694,5 @@
         "Estatus": "Informativa",
         "Grupo": "Otros",
         "Nivel": "Otros"
-=======
-        "Fecha": "2026-07-29",
-        "Medio": "Pachuca Brilla",
-        "Titular": "Reconocen esfuerzo nacional durante Mundial de Futbol",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Presidencia",
-        "Organismo": "Presidencia",
-        "Tema": "Mundial De Futbol",
-        "Estatus": "Informativa",
-        "Grupo": "Presidencia de la República",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Pachuca Brilla",
-        "Titular": "Hidalgo celebrará a sus pueblos originarios en Tlajtoli",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Cultura",
-        "Organismo": "Cultura",
-        "Tema": "Tlajtoli",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Pachuca Brilla",
-        "Titular": "Detienen a presunto responsable de robo a casa habitación en Santa Julia",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Policía municipal",
-        "Tema": "Combate a la delincuencia",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Pachuca Brilla",
-        "Titular": "Jugadores de Tuzos disputan el All Stars Game",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Otros",
-        "Organismo": "Otros",
-        "Tema": "Deportes",
-        "Estatus": "Informativa",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Pachuca Brilla",
-        "Titular": "Prevenir está en nuestras manos",
-        "Recurso editorial": "Publicidad",
-        "Dependencia": "Sipdus",
-        "Organismo": "Caasim",
-        "Tema": "Prevención de inundaciones",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Pachuca Brilla",
-        "Titular": "Una sola voz contra la trata",
-        "Recurso editorial": "Publicidad",
-        "Dependencia": "Ayuntamiento",
-        "Organismo": "Ayuntamiento",
-        "Tema": "Combate a trata de personas",
-        "Estatus": "Informativa",
-        "Grupo": "Alcaldías",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Plaza Juárez",
-        "Titular": "Inauguran estación de bomberos y oificinas de Protección Civil",
-        "Recurso editorial": "Ocho columnas",
-        "Dependencia": "Gobernador",
-        "Organismo": "Gobernador",
-        "Tema": "Polifórum",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gobernador"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Plaza Juárez",
-        "Titular": "Sheinbaum entrega reconocimientos por el plan Kulukán",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Presidencia",
-        "Organismo": "Presidencia",
-        "Tema": "Mundial De Futbol",
-        "Estatus": "Informativa",
-        "Grupo": "Presidencia de la República",
-        "Nivel": "Otros"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Plaza Juárez",
-        "Titular": "La oportunidad de esclarecer los hechos y saber si Jasso era culpable  se perdió. Con su muerte se cierra la investigación, así que la duda  se quedará y sobre esa duda no debemos siquiera seguir especulando  sobre los hechos. Es decir: no habrá justicia para nadie”.",
-        "Recurso editorial": "Editorial",
-        "Dependencia": "Semot",
-        "Organismo": "Semot",
-        "Tema": "Apps de transporte",
-        "Estatus": "Negativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Plaza Juárez",
-        "Titular": "Realizarán Festival de Pueblos originarios Tlajtoli",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Cultura",
-        "Organismo": "Cultura",
-        "Tema": "Tlajtoli",
-        "Estatus": "Informativa",
-        "Grupo": "Gobierno del estado",
-        "Nivel": "Gabinete"
-    },
-    {
-        "Fecha": "2026-07-29",
-        "Medio": "Plaza Juárez",
-        "Titular": "13 muertos y decenas de heridos en Japón tras terremoto",
-        "Recurso editorial": "Llamado",
-        "Dependencia": "Otros",
-        "Organismo": "Otros",
-        "Tema": "Sismo",
-        "Estatus": "Negativa",
-        "Grupo": "Otros",
-        "Nivel": "Otros"
->>>>>>> f0fcd7e558ede2621efae495e2a00c7be05001b0
     }
 ]
