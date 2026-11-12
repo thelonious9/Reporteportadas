@@ -296,7 +296,7 @@
         "Organismo": "INE",
         "Tema": "Conflicto de interés",
         "Estatus": "Informativa",
-        "Grupo": "Órganos electorales",
+        "Grupo": "Otros",
         "Nivel": "Otros"
     },
     {
@@ -464,7 +464,7 @@
         "Organismo": "INE",
         "Tema": "Conflicto de interés",
         "Estatus": "Negativa",
-        "Grupo": "Órganos electorales",
+        "Grupo": "Otros",
         "Nivel": "Otros"
     },
     {
@@ -476,7 +476,7 @@
         "Organismo": "INE",
         "Tema": "Modificación Presupuestal",
         "Estatus": "Negativa",
-        "Grupo": "Órganos electorales",
+        "Grupo": "Otros",
         "Nivel": "Otros"
     },
     {
@@ -666,7 +666,7 @@
         "Recurso editorial": "Llamado",
         "Dependencia": "Segobh",
         "Organismo": "IHM",
-        "Tema": "frau",
+        "Tema": "Prevención de fraudes laborales",
         "Estatus": "Informativa",
         "Grupo": "Gobierno del estado",
         "Nivel": "Gabinete"
